@@ -1,0 +1,5111 @@
+_format_version: "3.0"
+_konnect:
+  control_plane_name: kong-test
+ca_certificates:
+- cert: |
+    -----BEGIN CERTIFICATE-----
+    MIIDFTCCAf2gAwIBAgIIEgVEt7SVAqEwDQYJKoZIhvcNAQELBQAwHjEcMBoGA1UE
+    AxMTVGVzdCBDQSBDZXJ0aWZpY2F0ZTAeFw0yNjA0MTcwOTU4NTdaFw0yNjA0MTkw
+    OTU4NTdaMB4xHDAaBgNVBAMTE1Rlc3QgQ0EgQ2VydGlmaWNhdGUwggEiMA0GCSqG
+    SIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8YBwc9gTYF013tf9hhMGLf0D5DZ8twztx
+    GjzHAWtmpOWZLbZ1jA1zgGta2xRFPLJL2ufs+iKzFIZVwNZ0FANqcfLlEo7KD6+c
+    fen0bAramVT6DeZE4P4xiK0JEfHd5Aie2YdVS+AwazyCZl+thmCE/PV57T82XDMb
+    97dV8dskwOY73YyfdYw/vXN9F5e28vqYiV64If6Pec5TomvzqKXXu8j6V7RPObuz
+    doKYdxvY7k7s3GXhFHW/SfW2HQl9bogPeheAqPLk4ayFCD8YXDBszXz86ll+m1hw
+    aAoVv9/8sjsm7Iy2JRiyr8/1/SOA92n9i0pYZ9Z0iq831sKHR0/XAgMBAAGjVzBV
+    MA4GA1UdDwEB/wQEAwIBBjATBgNVHSUEDDAKBggrBgEFBQcDATAPBgNVHRMBAf8E
+    BTADAQH/MB0GA1UdDgQWBBRjUDyD75ILYBWyCTN1fyIcVitQnDANBgkqhkiG9w0B
+    AQsFAAOCAQEAPVIwThoIyLXE2T1QQFg5++4GugFXybXLoRsOVVC2jrkDSsaBEVZx
+    fen5WLaY6vTFY9GEzDbsSubsij8wQ5Ae3QWpeHPsYBl3nPoOBKpUuZ1BO3dtmaFk
+    dxyKnDqamA+vae/YzOZTMy1RPnowGTD8ke6pl6CRjEDPSFg0tSZhe73EqLW1bMm0
+    7FPxqjVZBmXMfXGWHqZ5GZ0wzsHQ/nJoLersR+kI2/QiBbtlV1+bxzUjPNXGft9f
+    zYyMSRZZzTysb2ch9r2ehq9O9kbAHOOAwxnRTtGa0oxj7y5ioV3lnFg7o2LDMseF
+    EkoBHP8DBWcaQXbNA2i3/cU82GcwEDLIZw==
+    -----END CERTIFICATE-----
+  cert_digest: 974f349b34aec33379d271a24bfc0979d5b5e7f18d0fec48ae22981a02d11f36
+  id: 75691535-236b-4bf6-93c7-502258d5b164
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+consumers:
+- custom_id: email@eb2be3c3e05626d313b58d35f8e3af1e43285f3a8502e9c1bab5c2d73140eef4.redacted
+  id: 7cf0eda9-04fa-4249-92fa-b61d07ec46a0
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  username: email@eb2be3c3e05626d313b58d35f8e3af1e43285f3a8502e9c1bab5c2d73140eef4.redacted
+- custom_id: email@4dd711a69c0ca503b7ad29ecfdbaa88fb40970a78906ce6c68df18bf992537a9.redacted
+  id: 247c03b2-7709-4eb9-a9a6-ce286864d594
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+  - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+  username: email@4dd711a69c0ca503b7ad29ecfdbaa88fb40970a78906ce6c68df18bf992537a9.redacted
+- custom_id: email@cc20dbc5acd1da1daf12b3f9e356006ab6c2dadd5206b4d5ced9e88e8b8fccea.redacted
+  id: 9237d1a1-f079-431f-8b1b-1e3d34e37b52
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  username: email@cc20dbc5acd1da1daf12b3f9e356006ab6c2dadd5206b4d5ced9e88e8b8fccea.redacted
+- id: 74e74b62-1732-4bd4-b026-91bad9c73b49
+  jwt_secrets:
+  - algorithm: HS256
+    id: 0471b615-311f-4362-90da-284d31475021
+    key: 8cd7fffbe80518bf4e77a1f78128e9a30252f609e750f592b09ab588dd3c50ec
+    secret: fd38807446e17d2b71f85c0f49d472f173419011ddf230bd93bf9c2a320551c9
+    tags:
+    - 6c46026130cdfd19b04109fc594dc57dd09afb6f8d957ea81e3428b3bda4352a
+  - algorithm: HS256
+    id: 5e2fdd4f-1024-456f-8dea-8e98606e3e15
+    key: 48c71b84ec55343d744422f4de2d4a8c915e9e07c8ad16debf71d24be0dc92ef
+    secret: 574fa6c8ea11ba27da2b5c51431eeed95822a0e7c392b24ca42727f496cf6454
+  username: 69d40b8ea4fb54cf44c33875a69becb4f2e813957c3c9a81dfb8ce76bdbd32d0
+- custom_id: 129411e4ce857f92acbe46903c8784f60970162957e42580dd43b96a99c59d8e
+  id: 13dcb264-33a7-497a-bf16-31308be8c749
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  username: 129411e4ce857f92acbe46903c8784f60970162957e42580dd43b96a99c59d8e
+- custom_id: 1793a9c91d5b3c87f3f3ac3bc56a18a96c04b14ee864fd4bc16cdbca95661a4a
+  id: cd6eae17-741d-40a4-8a3e-255ffb658b7a
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  username: 1793a9c91d5b3c87f3f3ac3bc56a18a96c04b14ee864fd4bc16cdbca95661a4a
+- custom_id: 5672372c7d8d90cd97c5accdaf96c747e0e65569a871ffa028a38779e5dd2921
+  id: 47fee873-d973-4d05-9ec2-2f93793beebd
+  jwt_secrets:
+  - algorithm: HS256
+    id: fc587235-9b99-412b-8220-1ccb91e75557
+    key: 5672372c7d8d90cd97c5accdaf96c747e0e65569a871ffa028a38779e5dd2921
+    secret: 10f0c13fbeef9196f9fbbffebd5b66f07b0252c9b6bd8f74a1e0a3b4669eb599
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  username: 5672372c7d8d90cd97c5accdaf96c747e0e65569a871ffa028a38779e5dd2921
+- custom_id: 661fabbf7d2451c22e9cd547a32feafe21216116d457d1b34d2911914d251482
+  id: c89daad2-f23b-47bc-ad0a-ad2ddfb65e00
+  jwt_secrets:
+  - algorithm: HS256
+    id: b19b1e84-4080-454b-a207-f09042abcf5c
+    key: 661fabbf7d2451c22e9cd547a32feafe21216116d457d1b34d2911914d251482
+    secret: e7be19e0e9f3076ddf3cd1b655baafe8d4daf945e9bffc5e6532e64642541255
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  username: 661fabbf7d2451c22e9cd547a32feafe21216116d457d1b34d2911914d251482
+plugins:
+- config:
+    content_type: application/json
+    custom_fields_by_lua: {}
+    flush_timeout: null
+    headers: {}
+    http_endpoint: http://1f4649319c16b2a6c95d7e1501d1d59495b7b007264ea74da63af83d3f9af87d
+    keepalive: 60000
+    method: POST
+    queue:
+      concurrency_limit: 1
+      initial_retry_delay: 0.01
+      max_batch_size: 1
+      max_bytes: null
+      max_coalescing_delay: 1
+      max_entries: 10000
+      max_retry_delay: 60
+      max_retry_time: 60
+    queue_size: null
+    retry_count: null
+    ssl_verify: false
+    timeout: 10000
+  enabled: true
+  id: b3137ef2-465a-4c19-b001-b3abdb2feaf3
+  instance_name: c6125853c28e20d740e4fe87dbf3f422dcb694a12c0d57043b1ea20ba3e91c15
+  name: http-log
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+  tags:
+  - b1f9bcdb435d8351b627ceff2b2cca62a8159c1c13b6f8c0dc64dcc4130cabed
+- config:
+    custom_injections: null
+    enforcement_mode: block
+    error_message: 09d10e5fc1dc3900e1de48d099bc9fbdf11bdf6bff6ae2b33aa7f0b37364343e
+    error_status_code: 400
+    injection_types:
+    - sql
+    - java_exception
+    - js
+    - ssi
+    - xpath_abbreviated
+    - xpath_extended
+    locations:
+    - path_and_query
+  enabled: true
+  id: 987522dd-2c6d-46c2-b2c6-5be179a1dba6
+  name: injection-protection
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+- config:
+    anonymous: null
+    hide_credentials: false
+    identity_realms:
+    - id: null
+      region: null
+      scope: cp
+    key_in_body: false
+    key_in_header: true
+    key_in_query: true
+    key_names:
+    - 2762d7032939713d0d14c1ce6a26825eb9dc97ebcfed17df99de98a79a59c114
+    realm: null
+    run_on_preflight: true
+  enabled: false
+  id: d904b045-a78f-4978-b749-b5f37aa5190d
+  name: key-auth
+  protocols:
+  - grpc
+  - grpcs
+  - https
+  - ws
+  - wss
+- config:
+    access_logs:
+      custom_attributes_by_lua: null
+      endpoint: null
+    access_logs_endpoint: null
+    batch_flush_delay: null
+    batch_span_count: null
+    connect_timeout: 1000
+    header_type: preserve
+    headers: null
+    http_response_header_for_traceid: null
+    logs_endpoint: null
+    metrics:
+      enable_ai_metrics: false
+      enable_bandwidth_metrics: false
+      enable_consumer_attribute: false
+      enable_latency_metrics: false
+      enable_request_metrics: false
+      enable_upstream_health_metrics: false
+      endpoint: null
+      push_interval: 60
+    propagation:
+      clear: null
+      default_format: w3c
+      extract: null
+      inject: null
+    queue:
+      concurrency_limit: 1
+      initial_retry_delay: 0.01
+      max_batch_size: 200
+      max_bytes: null
+      max_coalescing_delay: 1
+      max_entries: 10000
+      max_retry_delay: 60
+      max_retry_time: 60
+    read_timeout: 5000
+    resource_attributes: null
+    sampling_rate: null
+    sampling_strategy: parent_drop_probability_fallback
+    send_timeout: 5000
+    traces_endpoint: http://2dacfc47d87254499a3429e1a6e1651f9a43660559a937659c09d4754511ea58
+  enabled: true
+  id: 960426e4-e683-4449-9c9a-504a813c2169
+  name: opentelemetry
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+- config:
+    ai_metrics: false
+    bandwidth_metrics: true
+    latency_metrics: true
+    per_consumer: true
+    status_code_metrics: true
+    upstream_health_metrics: true
+    wasm_metrics: true
+  enabled: true
+  id: 0ab2e93a-c293-4304-80f4-1fac2e4924e2
+  name: prometheus
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+- config:
+    day: null
+    error_code: 429
+    error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+    fault_tolerant: true
+    header_name: null
+    hide_client_headers: false
+    hour: null
+    limit_by: consumer
+    minute: 500
+    month: null
+    path: null
+    policy: redis
+    redis:
+      cloud_authentication: null
+      database: 0
+      host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+      password: null
+      port: 6379
+      server_name: null
+      ssl: false
+      ssl_verify: true
+      timeout: 2000
+      username: null
+    redis_database: 0
+    redis_host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+    redis_password: null
+    redis_port: 6379
+    redis_server_name: null
+    redis_ssl: false
+    redis_ssl_verify: true
+    redis_timeout: 2000
+    redis_username: null
+    second: null
+    sync_rate: -1
+    year: null
+  enabled: false
+  id: 9e391932-eeae-4ff1-955b-bad5140abdbe
+  name: rate-limiting
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: ac51fc30-c038-4ed9-b653-91244ccfa79c
+  name: b2df4e3985c21fe75f2559a291e838c49387091eef54155eae40c54c580d564a
+  path: /redacted/path/9725c1b13e9597ecf3d436e1598e510aa6ee0e4c78895b08815ab84d9a631541
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    id: c377c88c-2d80-4d47-99d9-dd5b73dae54d
+    methods:
+    - GET
+    name: b2df4e3985c21fe75f2559a291e838c49387091eef54155eae40c54c580d564a
+    path_handling: v0
+    paths:
+    - /redacted/path/9c500430edf63f496f0d0ea7359eac206a51a6badcce1933b08228a748d9ab83
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 200
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: 615fa1af-d03e-4dbb-9a32-c4b362c37d7c
+  name: 169cdb135d1ff1458f8a494e905f0a6f83137f7840b75de0ee3ce66fac3a72b0
+  path: /redacted/path/9725c1b13e9597ecf3d436e1598e510aa6ee0e4c78895b08815ab84d9a631541
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    id: 12bad8ba-622e-40ff-991d-63e0cdc942cc
+    methods:
+    - GET
+    name: 169cdb135d1ff1458f8a494e905f0a6f83137f7840b75de0ee3ce66fac3a72b0
+    path_handling: v0
+    paths:
+    - /redacted/path/6a78619e284bd946957cccbacdfb7d98aeff64055ad828b4725f2df33df5a397
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 200
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: 891041e63414e83f7ddc1f799680e2bb294ec8286fd4a0cfd7afaa155f6389e1
+  id: 50723e9c-78ea-4dd8-b296-3b22d2c8006d
+  name: 7ceed707b300d365f017b0482a892f275be63deb2c121cd3cf9eff86ee8924ff
+  port: 1
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    id: 9923208c-cdc2-4999-a77b-c2d2a47b4751
+    name: 7ceed707b300d365f017b0482a892f275be63deb2c121cd3cf9eff86ee8924ff
+    path_handling: v0
+    paths:
+    - /redacted/path/2a9c5c83c300b6883ac5f6388d5699f559c4abd1277a16419ae77abfb015c78f
+    plugins:
+    - config:
+        body: null
+        content_type: null
+        echo: false
+        message: null
+        status_code: 200
+        trigger: null
+      enabled: true
+      id: 0707f79c-4cd8-46d1-aa23-cdaf7806b5ff
+      name: request-termination
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: a7895e8e36e464005725ff5f0ba9fb8fb3965de139307bbb04a39b2bfbc8a70d
+  id: 2ef53929-b848-4fa3-ada9-2a34c9c5848c
+  name: d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+  path: /redacted/path/f4c072a9fd48f28d56ddd4662077a26a24ab28afee4fcc079b0f417f28a1b4be
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    id: 80120f45-8475-49f3-8cf0-f15aaa3997ea
+    name: ad9e60dcf3dc5bfc69f0e2dcf334d5b0133d16262f1e05d0bebaa6ff89dfb210
+    path_handling: v0
+    paths:
+    - /redacted/path/80df21444990f5f88fe6705ebaaade167b9f2f549ac09de674a6114325771a42
+    preserve_host: false
+    protocols:
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 5000
+  enabled: true
+  host: a7895e8e36e464005725ff5f0ba9fb8fb3965de139307bbb04a39b2bfbc8a70d
+  id: 9d0a5c6f-086c-49dc-acfe-482993b83194
+  name: 6afda3eaaf5f125ee9b1c81e8f6ab4d27dc20b50e139f01f4eb957f93614d5ce
+  path: /redacted/path/f4c072a9fd48f28d56ddd4662077a26a24ab28afee4fcc079b0f417f28a1b4be
+  plugins:
+  - config:
+      compound_identifier: null
+      consumer_groups: null
+      dictionary_name: kong_rate_limiting_counters
+      disable_penalty: false
+      enforce_consumer_groups: false
+      error_code: 429
+      error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+      header_name: null
+      hide_client_headers: false
+      identifier: consumer
+      limit:
+      - 5
+      lock_dictionary_name: kong_locks
+      namespace: e63d97c6b85318c76927b8d9229821b8adb663a2f5d4ffc397fe7ea014f1e3cf
+      path: null
+      redis:
+        cloud_authentication: null
+        cluster_addresses: null
+        cluster_max_redirections: 5
+        cluster_nodes: null
+        connect_timeout: 2000
+        connection_is_proxied: false
+        database: 0
+        host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        keepalive_backlog: null
+        keepalive_pool_size: 256
+        password: null
+        port: 6379
+        read_timeout: 2000
+        redis_proxy_type: null
+        send_timeout: 2000
+        sentinel_addresses: null
+        sentinel_master: null
+        sentinel_nodes: null
+        sentinel_password: null
+        sentinel_role: null
+        sentinel_username: null
+        server_name: null
+        ssl: false
+        ssl_verify: false
+        timeout: 2000
+        username: null
+      retry_after_jitter_max: 0
+      strategy: local
+      sync_rate: null
+      throttling: null
+      window_size:
+      - 1
+      window_type: sliding
+    enabled: true
+    id: 6e7662e6-afe1-4946-86d9-941b5ad8fc50
+    instance_name: 3c50c313a3e8aba095e66c2e56219dd61cb6420909aec80033673844730d7b94
+    name: rate-limiting-advanced
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: 03485f94-806c-4b9c-a4e0-58af866e580a
+    methods:
+    - GET
+    - POST
+    name: 132800da02b2e72a3655c2791ab898183a44057cf935142fc077d7ad5b8d5b00
+    path_handling: v0
+    paths:
+    - /redacted/path/07db8972a489f523550d491a7c0dc5fe4df3e632b41892cfff7fa5cc412b3640
+    plugins:
+    - config:
+        anonymous: null
+        claims_to_verify:
+        - exp
+        cookie_names: []
+        header_names:
+        - 8b6f299475df84b77e406c627aa6839ce6e525cab8e5367fa2e057a1dd59f7ae
+        key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+        maximum_expiration: 0
+        realm: null
+        run_on_preflight: true
+        secret_is_base64: false
+        uri_param_names:
+        - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+      enabled: true
+      id: 5ee9529c-4746-4a3a-a734-ac2dfab3b93a
+      instance_name: 8e24005d8d7074447df2078f7ebd1e4adcf9bc03f687e87535fada02c9b16297
+      name: jwt
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        anonymous: null
+        audience: null
+        audience_claim:
+        - 1963d32bebf5875a315118536d3b1ae8722963efae0e345837a79bf8c4ccc634
+        audience_required: null
+        auth_methods:
+        - bearer
+        authenticated_groups_claim: null
+        authorization_cookie_domain: null
+        authorization_cookie_http_only: true
+        authorization_cookie_name: 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        authorization_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        authorization_cookie_same_site: Default
+        authorization_cookie_secure: null
+        authorization_endpoint: null
+        authorization_query_args_client: null
+        authorization_query_args_names: null
+        authorization_query_args_values: null
+        authorization_rolling_timeout: 600
+        bearer_token_cookie_name: null
+        bearer_token_param_type:
+        - header
+        - query
+        - body
+        by_username_ignore_case: false
+        cache_introspection: true
+        cache_token_exchange: true
+        cache_tokens: true
+        cache_tokens_salt: 7ebea4eee7af09d6f295a45d4e0caa8af5f9e9f232262b3eb47300cac8b96264
+        cache_ttl: 3600
+        cache_ttl_max: null
+        cache_ttl_min: null
+        cache_ttl_neg: null
+        cache_ttl_resurrect: null
+        cache_user_info: true
+        claims_forbidden: null
+        client_alg: null
+        client_arg: d6b549d776ee278cd86103236a98d74401c54e82eea3249e140323e9764fbb59
+        client_auth: null
+        client_credentials_param_type:
+        - header
+        - query
+        - body
+        client_id: null
+        client_jwk: null
+        client_secret: null
+        cluster_cache_redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        cluster_cache_strategy: "off"
+        consumer_by:
+        - username
+        consumer_claim:
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        consumer_claims:
+        - - email
+        consumer_groups_claim: null
+        consumer_groups_optional: false
+        consumer_optional: false
+        credential_claim:
+        - dadce8c334245d9f7b716ca43545549dded343ac4f09a034502a177868cb84fc
+        disable_session: null
+        discovery_headers_names: null
+        discovery_headers_values: null
+        display_errors: false
+        domains: null
+        downstream_access_token_header: null
+        downstream_access_token_jwk_header: null
+        downstream_headers: null
+        downstream_headers_claims: null
+        downstream_headers_names: null
+        downstream_id_token_header: null
+        downstream_id_token_jwk_header: null
+        downstream_introspection_header: null
+        downstream_introspection_jwt_header: null
+        downstream_refresh_token_header: null
+        downstream_session_id_header: null
+        downstream_user_info_header: null
+        downstream_user_info_jwt_header: null
+        dpop_proof_lifetime: 300
+        dpop_use_nonce: false
+        enable_hs_signatures: false
+        end_session_endpoint: null
+        expose_error_code: true
+        extra_jwks_uris: null
+        forbidden_destroy_session: true
+        forbidden_error_message: 99ea76625b0bc38bcbf3eda012cd73b1bf6dfa780755885025f07a6a932ae8f4
+        forbidden_redirect_uri: null
+        groups_claim:
+        - 4c975aaaa97dbd7fd372e382f183c285bf6d2bd2239c0c7b775dbb739ffdc9fb
+        groups_required: null
+        hide_credentials: false
+        http_proxy: null
+        http_proxy_authorization: null
+        http_version: 1.1
+        https_proxy: null
+        https_proxy_authorization: null
+        id_token_param_name: null
+        id_token_param_type:
+        - header
+        - query
+        - body
+        ignore_signature: []
+        introspect_jwt_tokens: false
+        introspection_accept: application/json
+        introspection_check_active: true
+        introspection_endpoint: null
+        introspection_endpoint_auth_method: null
+        introspection_headers_client: null
+        introspection_headers_names: null
+        introspection_headers_values: null
+        introspection_hint: 767029373b08b133ad9fa23b908eaecebd7316823d9875235e16c58355484d2e
+        introspection_post_args_client: null
+        introspection_post_args_client_headers: null
+        introspection_post_args_names: null
+        introspection_post_args_values: null
+        introspection_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        issuer: 868882cc1aaf25e6d3b955de65237276fa9555eb1734422210c82fefc3ed3293:redacted
+        issuers_allowed: null
+        jwks_endpoint: null
+        jwt_session_claim: 5136263a383cb9d4db4bbe4a2e50244e7cf120f043df181f41085628e9a7079d
+        jwt_session_cookie: null
+        keepalive: true
+        leeway: 0
+        login_action: upstream
+        login_methods:
+        - authorization_code
+        login_redirect_mode: fragment
+        login_redirect_uri: null
+        login_tokens:
+        - id_token
+        logout_methods:
+        - POST
+        - DELETE
+        logout_post_arg: null
+        logout_query_arg: null
+        logout_redirect_uri: null
+        logout_revoke: false
+        logout_revoke_access_token: true
+        logout_revoke_refresh_token: true
+        logout_uri_suffix: null
+        max_age: null
+        mtls_introspection_endpoint: null
+        mtls_revocation_endpoint: null
+        mtls_token_endpoint: null
+        no_proxy: null
+        password_param_type:
+        - header
+        - query
+        - body
+        preserve_query_args: false
+        proof_of_possession_auth_methods_validation: true
+        proof_of_possession_dpop: "off"
+        proof_of_possession_mtls: "off"
+        pushed_authorization_request_endpoint: null
+        pushed_authorization_request_endpoint_auth_method: null
+        redirect_uri: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          prefix: null
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          socket: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        rediscovery_lifetime: 30
+        refresh_token_param_name: null
+        refresh_token_param_type:
+        - header
+        - query
+        - body
+        refresh_tokens: true
+        require_proof_key_for_code_exchange: null
+        require_pushed_authorization_requests: null
+        require_signed_request_object: null
+        resolve_distributed_claims: false
+        response_mode: query
+        response_type:
+        - 5084251e194a3c3bbedc37a44a895e1dd8adb741ed2128eee2f64e8ca6ccf446
+        reverify: false
+        revocation_endpoint: null
+        revocation_endpoint_auth_method: null
+        revocation_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        roles_claim:
+        - df061adfe7c03c91a39dac60cde70174b8947f2946b6e9849057155c56653ade
+        roles_required: null
+        run_on_preflight: true
+        scopes:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        scopes_claim:
+        - bbc8ff664be0bc0ba7f33074f1ec6d42529624944981b5052b27204896a3a47a
+        scopes_required: null
+        search_user_info: false
+        session_absolute_timeout: 86400
+        session_audience: d0d7dc786d6531912e3c1b0988220adba2ba55aa39051bf1964250509aac86fe
+        session_bind: null
+        session_cookie_domain: null
+        session_cookie_http_only: true
+        session_cookie_name: b8d9ee2c1d2f9f9067d3a8d0540004c82d687dba4b41ef43bbc4a3620da95e3b
+        session_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        session_cookie_same_site: Lax
+        session_cookie_secure: null
+        session_enforce_same_subject: false
+        session_hash_storage_key: false
+        session_hash_subject: false
+        session_idling_timeout: 900
+        session_memcached_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_memcached_port: 11211
+        session_memcached_prefix: null
+        session_memcached_socket: null
+        session_memcached_ssl: null
+        session_memcached_ssl_verify: false
+        session_redis_cluster_max_redirections: 5
+        session_redis_cluster_nodes: null
+        session_redis_connect_timeout: 2000
+        session_redis_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_redis_password: null
+        session_redis_port: 6379
+        session_redis_prefix: null
+        session_redis_read_timeout: 2000
+        session_redis_send_timeout: 2000
+        session_redis_server_name: null
+        session_redis_socket: null
+        session_redis_ssl: false
+        session_redis_ssl_verify: false
+        session_redis_username: null
+        session_remember: false
+        session_remember_absolute_timeout: 2592000
+        session_remember_cookie_name: 7ab9bed0735800b0754cf7ca3c0639dad45eb8a82032b4e4e0e9d4ae17cd5b30
+        session_remember_rolling_timeout: 604800
+        session_request_headers: null
+        session_response_headers: null
+        session_rolling_timeout: 3600
+        session_secret: null
+        session_storage: cookie
+        session_store_metadata: false
+        ssl_verify: false
+        timeout: 10000
+        tls_client_auth_cert_id: null
+        tls_client_auth_ssl_verify: true
+        token_cache_key_include_scope: false
+        token_endpoint: null
+        token_endpoint_auth_method: null
+        token_exchange: null
+        token_exchange_endpoint: null
+        token_headers_client: null
+        token_headers_grants: null
+        token_headers_names: null
+        token_headers_prefix: null
+        token_headers_replay: null
+        token_headers_values: null
+        token_post_args_client: null
+        token_post_args_names: null
+        token_post_args_values: null
+        unauthorized_destroy_session: true
+        unauthorized_error_message: 85dae5f62af612ea56b4543bc214ce3f3ced2aafdee2b408423d628c96de7833
+        unauthorized_redirect_uri: null
+        unexpected_redirect_uri: null
+        upstream_access_token_header: d640e6b3705791625d99c3e99a167c704433b60a17fed9f7d158911bc892c7f9:redacted
+        upstream_access_token_jwk_header: null
+        upstream_headers: null
+        upstream_headers_claims: null
+        upstream_headers_names: null
+        upstream_id_token_header: null
+        upstream_id_token_jwk_header: null
+        upstream_introspection_header: null
+        upstream_introspection_jwt_header: null
+        upstream_refresh_token_header: null
+        upstream_session_id_header: null
+        upstream_user_info_header: null
+        upstream_user_info_jwt_header: null
+        userinfo_accept: application/json
+        userinfo_endpoint: null
+        userinfo_headers_client: null
+        userinfo_headers_names: null
+        userinfo_headers_values: null
+        userinfo_query_args_client: null
+        userinfo_query_args_names: null
+        userinfo_query_args_values: null
+        using_pseudo_issuer: false
+        verify_claims: true
+        verify_nonce: true
+        verify_parameters: false
+        verify_signature: true
+      enabled: false
+      id: 3e835073-d5bc-4727-beb9-201c35c0a37a
+      instance_name: ddaafccb4f26af1c5e8b5afe33d6eb62957451cca657916aa36eebb8f13a25e4
+      name: openid-connect
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - https_redirect_status_code: 426
+    id: 1b83ca80-582f-404a-b3ac-7f0bf0a6fa49
+    methods:
+    - GET
+    - POST
+    name: b2b9b5dad3291f0d362e15735f2eda51a25dbf91d48459904233573e4e108e38
+    path_handling: v0
+    paths:
+    - /redacted/path/a6bdbe04207fff0ad3524ab2cef92d328cd766c31456cb8e8edb16ad24205a28
+    plugins:
+    - config:
+        anonymous: null
+        claims_to_verify:
+        - exp
+        cookie_names: []
+        header_names:
+        - 8b6f299475df84b77e406c627aa6839ce6e525cab8e5367fa2e057a1dd59f7ae
+        key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+        maximum_expiration: 0
+        realm: null
+        run_on_preflight: true
+        secret_is_base64: false
+        uri_param_names:
+        - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+      enabled: true
+      id: 4b181009-af59-488b-bc94-baccdec0de24
+      instance_name: 9a2d85fddb884fcc64a15b045cbeed1025c1ec078fc331a39630de3fb02e88d1
+      name: jwt
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        anonymous: null
+        audience: null
+        audience_claim:
+        - 1963d32bebf5875a315118536d3b1ae8722963efae0e345837a79bf8c4ccc634
+        audience_required: null
+        auth_methods:
+        - bearer
+        authenticated_groups_claim: null
+        authorization_cookie_domain: null
+        authorization_cookie_http_only: true
+        authorization_cookie_name: 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        authorization_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        authorization_cookie_same_site: Default
+        authorization_cookie_secure: null
+        authorization_endpoint: null
+        authorization_query_args_client: null
+        authorization_query_args_names: null
+        authorization_query_args_values: null
+        authorization_rolling_timeout: 600
+        bearer_token_cookie_name: null
+        bearer_token_param_type:
+        - header
+        - query
+        - body
+        by_username_ignore_case: false
+        cache_introspection: true
+        cache_token_exchange: true
+        cache_tokens: true
+        cache_tokens_salt: 49095722220d0ffa855bc462fc7fa3fa5720b8dde2285a018c5b3066b2f603a4
+        cache_ttl: 3600
+        cache_ttl_max: null
+        cache_ttl_min: null
+        cache_ttl_neg: null
+        cache_ttl_resurrect: null
+        cache_user_info: true
+        claims_forbidden: null
+        client_alg: null
+        client_arg: d6b549d776ee278cd86103236a98d74401c54e82eea3249e140323e9764fbb59
+        client_auth: null
+        client_credentials_param_type:
+        - header
+        - query
+        - body
+        client_id: null
+        client_jwk: null
+        client_secret: null
+        cluster_cache_redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        cluster_cache_strategy: "off"
+        consumer_by:
+        - username
+        consumer_claim:
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        consumer_claims:
+        - - email
+        consumer_groups_claim: null
+        consumer_groups_optional: false
+        consumer_optional: false
+        credential_claim:
+        - dadce8c334245d9f7b716ca43545549dded343ac4f09a034502a177868cb84fc
+        disable_session: null
+        discovery_headers_names: null
+        discovery_headers_values: null
+        display_errors: false
+        domains: null
+        downstream_access_token_header: null
+        downstream_access_token_jwk_header: null
+        downstream_headers: null
+        downstream_headers_claims: null
+        downstream_headers_names: null
+        downstream_id_token_header: null
+        downstream_id_token_jwk_header: null
+        downstream_introspection_header: null
+        downstream_introspection_jwt_header: null
+        downstream_refresh_token_header: null
+        downstream_session_id_header: null
+        downstream_user_info_header: null
+        downstream_user_info_jwt_header: null
+        dpop_proof_lifetime: 300
+        dpop_use_nonce: false
+        enable_hs_signatures: false
+        end_session_endpoint: null
+        expose_error_code: true
+        extra_jwks_uris: null
+        forbidden_destroy_session: true
+        forbidden_error_message: 99ea76625b0bc38bcbf3eda012cd73b1bf6dfa780755885025f07a6a932ae8f4
+        forbidden_redirect_uri: null
+        groups_claim:
+        - 4c975aaaa97dbd7fd372e382f183c285bf6d2bd2239c0c7b775dbb739ffdc9fb
+        groups_required: null
+        hide_credentials: false
+        http_proxy: null
+        http_proxy_authorization: null
+        http_version: 1.1
+        https_proxy: null
+        https_proxy_authorization: null
+        id_token_param_name: null
+        id_token_param_type:
+        - header
+        - query
+        - body
+        ignore_signature: []
+        introspect_jwt_tokens: false
+        introspection_accept: application/json
+        introspection_check_active: true
+        introspection_endpoint: null
+        introspection_endpoint_auth_method: null
+        introspection_headers_client: null
+        introspection_headers_names: null
+        introspection_headers_values: null
+        introspection_hint: 767029373b08b133ad9fa23b908eaecebd7316823d9875235e16c58355484d2e
+        introspection_post_args_client: null
+        introspection_post_args_client_headers: null
+        introspection_post_args_names: null
+        introspection_post_args_values: null
+        introspection_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        issuer: 868882cc1aaf25e6d3b955de65237276fa9555eb1734422210c82fefc3ed3293:redacted
+        issuers_allowed: null
+        jwks_endpoint: null
+        jwt_session_claim: 5136263a383cb9d4db4bbe4a2e50244e7cf120f043df181f41085628e9a7079d
+        jwt_session_cookie: null
+        keepalive: true
+        leeway: 0
+        login_action: upstream
+        login_methods:
+        - authorization_code
+        login_redirect_mode: fragment
+        login_redirect_uri: null
+        login_tokens:
+        - id_token
+        logout_methods:
+        - POST
+        - DELETE
+        logout_post_arg: null
+        logout_query_arg: null
+        logout_redirect_uri: null
+        logout_revoke: false
+        logout_revoke_access_token: true
+        logout_revoke_refresh_token: true
+        logout_uri_suffix: null
+        max_age: null
+        mtls_introspection_endpoint: null
+        mtls_revocation_endpoint: null
+        mtls_token_endpoint: null
+        no_proxy: null
+        password_param_type:
+        - header
+        - query
+        - body
+        preserve_query_args: false
+        proof_of_possession_auth_methods_validation: true
+        proof_of_possession_dpop: "off"
+        proof_of_possession_mtls: "off"
+        pushed_authorization_request_endpoint: null
+        pushed_authorization_request_endpoint_auth_method: null
+        redirect_uri: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          prefix: null
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          socket: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        rediscovery_lifetime: 30
+        refresh_token_param_name: null
+        refresh_token_param_type:
+        - header
+        - query
+        - body
+        refresh_tokens: true
+        require_proof_key_for_code_exchange: null
+        require_pushed_authorization_requests: null
+        require_signed_request_object: null
+        resolve_distributed_claims: false
+        response_mode: query
+        response_type:
+        - 5084251e194a3c3bbedc37a44a895e1dd8adb741ed2128eee2f64e8ca6ccf446
+        reverify: false
+        revocation_endpoint: null
+        revocation_endpoint_auth_method: null
+        revocation_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        roles_claim:
+        - df061adfe7c03c91a39dac60cde70174b8947f2946b6e9849057155c56653ade
+        roles_required: null
+        run_on_preflight: true
+        scopes:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        scopes_claim:
+        - bbc8ff664be0bc0ba7f33074f1ec6d42529624944981b5052b27204896a3a47a
+        scopes_required: null
+        search_user_info: false
+        session_absolute_timeout: 86400
+        session_audience: d0d7dc786d6531912e3c1b0988220adba2ba55aa39051bf1964250509aac86fe
+        session_bind: null
+        session_cookie_domain: null
+        session_cookie_http_only: true
+        session_cookie_name: b8d9ee2c1d2f9f9067d3a8d0540004c82d687dba4b41ef43bbc4a3620da95e3b
+        session_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        session_cookie_same_site: Lax
+        session_cookie_secure: null
+        session_enforce_same_subject: false
+        session_hash_storage_key: false
+        session_hash_subject: false
+        session_idling_timeout: 900
+        session_memcached_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_memcached_port: 11211
+        session_memcached_prefix: null
+        session_memcached_socket: null
+        session_memcached_ssl: null
+        session_memcached_ssl_verify: false
+        session_redis_cluster_max_redirections: 5
+        session_redis_cluster_nodes: null
+        session_redis_connect_timeout: 2000
+        session_redis_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_redis_password: null
+        session_redis_port: 6379
+        session_redis_prefix: null
+        session_redis_read_timeout: 2000
+        session_redis_send_timeout: 2000
+        session_redis_server_name: null
+        session_redis_socket: null
+        session_redis_ssl: false
+        session_redis_ssl_verify: false
+        session_redis_username: null
+        session_remember: false
+        session_remember_absolute_timeout: 2592000
+        session_remember_cookie_name: 7ab9bed0735800b0754cf7ca3c0639dad45eb8a82032b4e4e0e9d4ae17cd5b30
+        session_remember_rolling_timeout: 604800
+        session_request_headers: null
+        session_response_headers: null
+        session_rolling_timeout: 3600
+        session_secret: null
+        session_storage: cookie
+        session_store_metadata: false
+        ssl_verify: false
+        timeout: 10000
+        tls_client_auth_cert_id: null
+        tls_client_auth_ssl_verify: true
+        token_cache_key_include_scope: false
+        token_endpoint: null
+        token_endpoint_auth_method: null
+        token_exchange: null
+        token_exchange_endpoint: null
+        token_headers_client: null
+        token_headers_grants: null
+        token_headers_names: null
+        token_headers_prefix: null
+        token_headers_replay: null
+        token_headers_values: null
+        token_post_args_client: null
+        token_post_args_names: null
+        token_post_args_values: null
+        unauthorized_destroy_session: true
+        unauthorized_error_message: 85dae5f62af612ea56b4543bc214ce3f3ced2aafdee2b408423d628c96de7833
+        unauthorized_redirect_uri: null
+        unexpected_redirect_uri: null
+        upstream_access_token_header: d640e6b3705791625d99c3e99a167c704433b60a17fed9f7d158911bc892c7f9:redacted
+        upstream_access_token_jwk_header: null
+        upstream_headers: null
+        upstream_headers_claims: null
+        upstream_headers_names: null
+        upstream_id_token_header: null
+        upstream_id_token_jwk_header: null
+        upstream_introspection_header: null
+        upstream_introspection_jwt_header: null
+        upstream_refresh_token_header: null
+        upstream_session_id_header: null
+        upstream_user_info_header: null
+        upstream_user_info_jwt_header: null
+        userinfo_accept: application/json
+        userinfo_endpoint: null
+        userinfo_headers_client: null
+        userinfo_headers_names: null
+        userinfo_headers_values: null
+        userinfo_query_args_client: null
+        userinfo_query_args_names: null
+        userinfo_query_args_values: null
+        using_pseudo_issuer: false
+        verify_claims: true
+        verify_nonce: true
+        verify_parameters: false
+        verify_signature: true
+      enabled: false
+      id: 6bbbb418-fa56-45b6-8093-59dd3ce7d15d
+      instance_name: 7e0f547912c54a1645ce010013b5e49a8586b707f23c3afdce84e4c6464156e7
+      name: openid-connect
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+        header_name: null
+        hide_client_headers: false
+        identifier: consumer
+        limit:
+        - 10
+        lock_dictionary_name: kong_locks
+        namespace: 91b0551999f0225023f4aaa2fcce3c3688cc6c82561953c606349bb433bb041c
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 1
+        window_type: sliding
+      enabled: true
+      id: aa6c7dde-10f9-4ded-8002-87726cf79e61
+      instance_name: 935e6553633bda1a25a0ebf8d6d606f83650d437154f203bfcd90885762d56d9
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 5000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: 6b7b7664-e14b-4faa-aa3e-39c9aa85958b
+  name: 08f2e491a325f3e8e27431f18b36823f51c0441331322475bbd934beb6a4176f
+  path: /redacted/path/440db61f3407e10586ff29c7fcf5d35564e160744290478de0e51eeacd0e84f4
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: 24af20e8-54a8-44b1-a05d-406725c700ba
+    methods:
+    - GET
+    name: 641ce7061af95655bd561e9dc7ffc2e85e555c3e529df4a907d2db792b29ed0b
+    path_handling: v0
+    paths:
+    - /redacted/path/f9e25efa5cb4a9689ca0f8dbb61db56c3f954f32a47535bab0d16eef9a0b774c
+    plugins:
+    - config:
+        add:
+          headers: []
+          if_status: []
+          json: []
+          json_types: []
+        allow:
+          json: null
+        append:
+          headers: []
+          if_status: []
+          json: []
+          json_types: []
+        dots_in_keys: true
+        remove:
+          headers: []
+          if_status: []
+          json: []
+        rename:
+          headers: []
+          if_status: []
+        replace:
+          body: null
+          headers: []
+          if_status: []
+          json: []
+          json_types: []
+        transform:
+          functions:
+          - bf37cdc6f11ac9765d19df56d55d6a388c02de92da799b627a9daf7b1c3d8da0
+          if_status: []
+          json: []
+      enabled: true
+      id: 763f1b69-9af4-407a-8eaa-86b16b5e2f45
+      instance_name: 343f858609399d45adc53e6c87a1db95b7b91b9b631141d7989a9cba5342c8be
+      name: response-transformer-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - https_redirect_status_code: 426
+    id: 72bafc8a-3866-463f-a754-adae72fc0c9a
+    methods:
+    - GET
+    name: 13181f4d23478fa3fe6325c80f9ac54ede74145d906f164fc7db7d34e6e1051e
+    path_handling: v0
+    paths:
+    - /redacted/path/f37b7278828caa5ed323198d3c010a417cd04f2c115e22a1891607b88542c8ed
+    plugins:
+    - config:
+        body: 196c30078a4b1bd882dc5d85f9306244d1ee12d53ed72e6066df5cad1d2e047d:redacted
+        content_type: redacted/bb8656400b247f614983ae37ee7c4e5a5898121882177244b8bb8a206971bdab
+        echo: false
+        message: null
+        status_code: 200
+        trigger: null
+      enabled: true
+      id: f338a82c-2aba-4e0c-85ec-7c34a214dd01
+      instance_name: 210c07e39d24a484905c36d6ae3bf1e5c7a2e3b957869ca99e48b7ef29274d7a
+      name: request-termination
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        add:
+          headers: []
+          if_status: []
+          json: []
+          json_types: []
+        allow:
+          json: null
+        append:
+          headers: []
+          if_status: []
+          json: []
+          json_types: []
+        dots_in_keys: true
+        remove:
+          headers: []
+          if_status: []
+          json: []
+        rename:
+          headers: []
+          if_status: []
+        replace:
+          body: null
+          headers: []
+          if_status: []
+          json: []
+          json_types: []
+        transform:
+          functions:
+          - bf37cdc6f11ac9765d19df56d55d6a388c02de92da799b627a9daf7b1c3d8da0
+          if_status: []
+          json: []
+      enabled: true
+      id: 7c9182ed-2d41-4b5c-a433-b78cd5e6831e
+      instance_name: 5f84e714782619b5183b24dcd7b59e9f5aabe1e079f7e459ec9630323c5f44b7
+      name: response-transformer-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 5000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: d7f9ee64-bc5a-4ba6-bec6-4acaa49f420e
+  name: 24afa708efc152763eda7ad926e1e7804566ac69dd52c51dc278c07dbd906550
+  path: /redacted/path/418689b701d37a767c95fc361c762ac402d1903d3499b88fa8839a6726a31a89
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: a4f26884-6b9f-403c-a457-1a65cc62909a
+    methods:
+    - GET
+    name: f780bca6a08d93ba83546f71b607150691aaf6cbb3b973c0d33fa456d0107224
+    path_handling: v0
+    paths:
+    - /redacted/path/4baf0685d911e1d05374505e5610d593cedc939d482121bd0986ceed53f6f408
+    plugins:
+    - config:
+        anonymous: null
+        audience: null
+        audience_claim:
+        - 1963d32bebf5875a315118536d3b1ae8722963efae0e345837a79bf8c4ccc634
+        audience_required: null
+        auth_methods:
+        - authorization_code
+        - session
+        authenticated_groups_claim: null
+        authorization_cookie_domain: null
+        authorization_cookie_http_only: true
+        authorization_cookie_name: 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        authorization_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        authorization_cookie_same_site: Default
+        authorization_cookie_secure: null
+        authorization_endpoint: null
+        authorization_query_args_client: null
+        authorization_query_args_names: null
+        authorization_query_args_values: null
+        authorization_rolling_timeout: 600
+        bearer_token_cookie_name: null
+        bearer_token_param_type:
+        - header
+        - query
+        - body
+        by_username_ignore_case: true
+        cache_introspection: true
+        cache_token_exchange: true
+        cache_tokens: true
+        cache_tokens_salt: f75b704502fa55e188d6ee490c7cc113d73688ecb60af9e302f99bf51d104892
+        cache_ttl: 3600
+        cache_ttl_max: null
+        cache_ttl_min: null
+        cache_ttl_neg: null
+        cache_ttl_resurrect: null
+        cache_user_info: true
+        claims_forbidden: null
+        client_alg: null
+        client_arg: d6b549d776ee278cd86103236a98d74401c54e82eea3249e140323e9764fbb59
+        client_auth:
+        - client_secret_post
+        client_credentials_param_type:
+        - header
+        - query
+        - body
+        client_id:
+        - a48aa9da1a4d3ab7ba075319c32003279783416d5d45f8066f7245b62274a461
+        client_jwk: null
+        client_secret:
+        - db31c4b329cc7c129df6b1664b8ecf04a3a45f713ffe7708d1ad01e732cc06e5
+        cluster_cache_redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        cluster_cache_strategy: "off"
+        consumer_by:
+        - username
+        consumer_claim:
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        consumer_claims:
+        - - email
+        consumer_groups_claim: null
+        consumer_groups_optional: false
+        consumer_optional: false
+        credential_claim:
+        - dadce8c334245d9f7b716ca43545549dded343ac4f09a034502a177868cb84fc
+        disable_session: null
+        discovery_headers_names: null
+        discovery_headers_values: null
+        display_errors: false
+        domains: null
+        downstream_access_token_header: null
+        downstream_access_token_jwk_header: null
+        downstream_headers: null
+        downstream_headers_claims: null
+        downstream_headers_names: null
+        downstream_id_token_header: null
+        downstream_id_token_jwk_header: null
+        downstream_introspection_header: null
+        downstream_introspection_jwt_header: null
+        downstream_refresh_token_header: null
+        downstream_session_id_header: null
+        downstream_user_info_header: null
+        downstream_user_info_jwt_header: null
+        dpop_proof_lifetime: 300
+        dpop_use_nonce: false
+        enable_hs_signatures: false
+        end_session_endpoint: null
+        expose_error_code: true
+        extra_jwks_uris: null
+        forbidden_destroy_session: true
+        forbidden_error_message: 99ea76625b0bc38bcbf3eda012cd73b1bf6dfa780755885025f07a6a932ae8f4
+        forbidden_redirect_uri: null
+        groups_claim:
+        - 4c975aaaa97dbd7fd372e382f183c285bf6d2bd2239c0c7b775dbb739ffdc9fb
+        groups_required: null
+        hide_credentials: false
+        http_proxy: null
+        http_proxy_authorization: null
+        http_version: 1.1
+        https_proxy: null
+        https_proxy_authorization: null
+        id_token_param_name: null
+        id_token_param_type:
+        - header
+        - query
+        - body
+        ignore_signature: []
+        introspect_jwt_tokens: false
+        introspection_accept: application/json
+        introspection_check_active: true
+        introspection_endpoint: null
+        introspection_endpoint_auth_method: null
+        introspection_headers_client: null
+        introspection_headers_names: null
+        introspection_headers_values: null
+        introspection_hint: 767029373b08b133ad9fa23b908eaecebd7316823d9875235e16c58355484d2e
+        introspection_post_args_client: null
+        introspection_post_args_client_headers: null
+        introspection_post_args_names: null
+        introspection_post_args_values: null
+        introspection_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        issuer: 868882cc1aaf25e6d3b955de65237276fa9555eb1734422210c82fefc3ed3293:redacted
+        issuers_allowed: null
+        jwks_endpoint: null
+        jwt_session_claim: 5136263a383cb9d4db4bbe4a2e50244e7cf120f043df181f41085628e9a7079d
+        jwt_session_cookie: null
+        keepalive: true
+        leeway: 0
+        login_action: redirect
+        login_methods:
+        - authorization_code
+        login_redirect_mode: fragment
+        login_redirect_uri:
+        - e78da6ce550cd63e5d06b331841365714bdd1d877d349c840da56d5f7f8c839d:redacted
+        login_tokens:
+        - id_token
+        logout_methods:
+        - POST
+        - DELETE
+        logout_post_arg: null
+        logout_query_arg: null
+        logout_redirect_uri: null
+        logout_revoke: false
+        logout_revoke_access_token: true
+        logout_revoke_refresh_token: true
+        logout_uri_suffix: null
+        max_age: null
+        mtls_introspection_endpoint: null
+        mtls_revocation_endpoint: null
+        mtls_token_endpoint: null
+        no_proxy: null
+        password_param_type:
+        - header
+        - query
+        - body
+        preserve_query_args: false
+        proof_of_possession_auth_methods_validation: true
+        proof_of_possession_dpop: "off"
+        proof_of_possession_mtls: "off"
+        pushed_authorization_request_endpoint: null
+        pushed_authorization_request_endpoint_auth_method: null
+        redirect_uri:
+        - e78da6ce550cd63e5d06b331841365714bdd1d877d349c840da56d5f7f8c839d:redacted
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          prefix: null
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          socket: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        rediscovery_lifetime: 30
+        refresh_token_param_name: null
+        refresh_token_param_type:
+        - header
+        - query
+        - body
+        refresh_tokens: true
+        require_proof_key_for_code_exchange: null
+        require_pushed_authorization_requests: null
+        require_signed_request_object: null
+        resolve_distributed_claims: false
+        response_mode: query
+        response_type:
+        - 5084251e194a3c3bbedc37a44a895e1dd8adb741ed2128eee2f64e8ca6ccf446
+        reverify: false
+        revocation_endpoint: null
+        revocation_endpoint_auth_method: null
+        revocation_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        roles_claim:
+        - df061adfe7c03c91a39dac60cde70174b8947f2946b6e9849057155c56653ade
+        roles_required: null
+        run_on_preflight: true
+        scopes:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        - 1deb2a1334b8447d65ca8cfee70862a24c4bf6502ff385d0fe5f618ba1490fbf
+        scopes_claim:
+        - bbc8ff664be0bc0ba7f33074f1ec6d42529624944981b5052b27204896a3a47a
+        scopes_required: null
+        search_user_info: true
+        session_absolute_timeout: 86400
+        session_audience: d0d7dc786d6531912e3c1b0988220adba2ba55aa39051bf1964250509aac86fe
+        session_bind: null
+        session_cookie_domain: null
+        session_cookie_http_only: true
+        session_cookie_name: b8d9ee2c1d2f9f9067d3a8d0540004c82d687dba4b41ef43bbc4a3620da95e3b
+        session_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        session_cookie_same_site: Lax
+        session_cookie_secure: null
+        session_enforce_same_subject: false
+        session_hash_storage_key: false
+        session_hash_subject: false
+        session_idling_timeout: 900
+        session_memcached_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_memcached_port: 11211
+        session_memcached_prefix: null
+        session_memcached_socket: null
+        session_memcached_ssl: null
+        session_memcached_ssl_verify: false
+        session_redis_cluster_max_redirections: 5
+        session_redis_cluster_nodes: null
+        session_redis_connect_timeout: 2000
+        session_redis_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_redis_password: null
+        session_redis_port: 6379
+        session_redis_prefix: null
+        session_redis_read_timeout: 2000
+        session_redis_send_timeout: 2000
+        session_redis_server_name: null
+        session_redis_socket: null
+        session_redis_ssl: false
+        session_redis_ssl_verify: false
+        session_redis_username: null
+        session_remember: false
+        session_remember_absolute_timeout: 2592000
+        session_remember_cookie_name: 7ab9bed0735800b0754cf7ca3c0639dad45eb8a82032b4e4e0e9d4ae17cd5b30
+        session_remember_rolling_timeout: 604800
+        session_request_headers: null
+        session_response_headers: null
+        session_rolling_timeout: 3600
+        session_secret: redacted/0bcdb839360781c915d56d92fa3c81cd5e77845a7b79cdb554abd0dcfd62b7cb
+        session_storage: cookie
+        session_store_metadata: false
+        ssl_verify: false
+        timeout: 10000
+        tls_client_auth_cert_id: null
+        tls_client_auth_ssl_verify: true
+        token_cache_key_include_scope: false
+        token_endpoint: null
+        token_endpoint_auth_method: null
+        token_exchange: null
+        token_exchange_endpoint: null
+        token_headers_client: null
+        token_headers_grants: null
+        token_headers_names: null
+        token_headers_prefix: null
+        token_headers_replay: null
+        token_headers_values: null
+        token_post_args_client: null
+        token_post_args_names: null
+        token_post_args_values: null
+        unauthorized_destroy_session: true
+        unauthorized_error_message: 85dae5f62af612ea56b4543bc214ce3f3ced2aafdee2b408423d628c96de7833
+        unauthorized_redirect_uri: null
+        unexpected_redirect_uri: null
+        upstream_access_token_header: d640e6b3705791625d99c3e99a167c704433b60a17fed9f7d158911bc892c7f9:redacted
+        upstream_access_token_jwk_header: null
+        upstream_headers: null
+        upstream_headers_claims: null
+        upstream_headers_names: null
+        upstream_id_token_header: null
+        upstream_id_token_jwk_header: null
+        upstream_introspection_header: null
+        upstream_introspection_jwt_header: null
+        upstream_refresh_token_header: null
+        upstream_session_id_header: null
+        upstream_user_info_header: null
+        upstream_user_info_jwt_header: null
+        userinfo_accept: application/json
+        userinfo_endpoint: null
+        userinfo_headers_client: null
+        userinfo_headers_names: null
+        userinfo_headers_values: null
+        userinfo_query_args_client: null
+        userinfo_query_args_names: null
+        userinfo_query_args_values: null
+        using_pseudo_issuer: false
+        verify_claims: true
+        verify_nonce: true
+        verify_parameters: false
+        verify_signature: true
+      enabled: true
+      id: 595a00c2-7b46-47d2-ba7f-e7c3f4608186
+      instance_name: 665608abc4495f8853127dee86403f402f1acfa7680c036d6f3597cca5981761
+      name: openid-connect
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 5000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: 8df5b65c-17dd-46d1-bd92-6e29925117c9
+  name: 3e54b796e195d95a76f09f39314576f9704365984db7c0c12058c81385cdc85b
+  path: /redacted/path/9725c1b13e9597ecf3d436e1598e510aa6ee0e4c78895b08815ab84d9a631541
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: 72bd4eea-2f27-4a87-84c0-9eef3efcea62
+    methods:
+    - GET
+    - POST
+    name: bc333eee4be53544ca0a6a5d23b0221b078c78256beda3c127e8ee4c81a65a67
+    path_handling: v0
+    paths:
+    - /redacted/path/bc7c47dbbf4ebe1f0e7db6d52e6a56ffcb8410fea1dc0ceaacf8d7e750437f20
+    plugins:
+    - config:
+        allow: null
+        deny:
+        - ba32bd3bbef9958930fc569f0f643b50226361c0909037245756b3e30930362b
+        message: null
+        status: null
+      enabled: true
+      id: 15dda1bd-670f-4cb6-ac96-4065cecfdeda
+      instance_name: 84c622c78de9a1e7a8b4551027fb53ddaaf1b217563a285ae40945a984f84786
+      name: ip-restriction
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      - tcp
+      - tls
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - https_redirect_status_code: 426
+    id: 5e3673e3-950b-48f6-97f6-2128263092ba
+    methods:
+    - GET
+    - POST
+    name: cde78006cdb1e039881d15370fa6cfb5776249cc73a2ad9ea306ce445ec666d4
+    path_handling: v0
+    paths:
+    - /redacted/path/0ee5426a915834bbb184f53bda21d1a11f261d98b6a9ea667f5d3319618d015e
+    plugins:
+    - config:
+        allow: []
+        deny:
+        - a5bc41a1663b84da6ca801cacc837b39d344af59f1e2d9cf558a278be3cc7d8b
+        - 815013f10ff206c379d4fa581b86c8ee67c4d1390e679a82addc9e7f8328f8f9
+        - 2094298f2439a2333c7e994b4feaa773c6b438e294ffa5248fde57238f518dea
+      enabled: true
+      id: 8d6a2b1f-ad92-42f7-a58c-3a4cfc2098d9
+      instance_name: d70e69f64557eb1ce8ae2ca1880b4b392cc2b5d00ed586b5b55d60cdb64f368b
+      name: bot-detection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        access:
+        - |
+          local failed = kong.request.get_query_arg("login_failed")
+          local marker = kong.request.get_header("X-Login-Failed")
+          if failed == "true" or marker == "true" then
+            return kong.response.exit(403, { message = "Pattern-based temporary ban triggered" })
+          end
+        body_filter: []
+        certificate: []
+        functions: []
+        header_filter: []
+        log: []
+        rewrite: []
+        ws_client_frame: []
+        ws_close: []
+        ws_handshake: []
+        ws_upstream_frame: []
+      enabled: true
+      id: 3fa95913-c488-4839-9010-cf7b8ac55175
+      instance_name: e1328c5299324c6f4b84ff6f2eea554049777329652cb370333494814e03c746
+      name: pre-function
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 5
+        lock_dictionary_name: kong_locks
+        namespace: 42b4fa7eee0ae126f4bf1cee3366c48c35d7afe1e5850ff0aa812cbc979cb5b5
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: 1908620b-3274-471d-963c-ecd28122c03b
+      instance_name: 3061333a9a772947cf4c3b829dd82f0f4fb0c7d20ea5f3016e4fd88548bd4dc6
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - https_redirect_status_code: 426
+    id: ae93c210-c1a5-4b13-8525-62b46157f5b0
+    methods:
+    - GET
+    name: 911220f7238398ae6792858908564a5fb5d84e8fa4dfa4dab21ca318e428d2e4
+    path_handling: v0
+    paths:
+    - /redacted/path/6c2199bfb9dd4f7375126e295646d69f544d9dce711f4f0a5e91f292ee28f971
+    plugins:
+    - config:
+        allow_partial_chain: false
+        anonymous: null
+        authenticated_group_by: CN
+        ca_certificates:
+        - 427cec4fc2210da24954397b2513d3628f4b03b35f6e28743bac5d7baf5f57d5
+        cache_ttl: 60
+        cert_cache_ttl: 60000
+        consumer_by:
+        - username
+        default_consumer: null
+        http_proxy_host: null
+        http_proxy_port: null
+        http_timeout: 30000
+        https_proxy_host: null
+        https_proxy_port: null
+        revocation_check_mode: IGNORE_CA_ERROR
+        san_dirname_matcher: []
+        send_ca_dn: true
+        skip_consumer_lookup: false
+        ssl_verify: false
+      enabled: true
+      id: 612eca32-4a6c-4266-9ea4-a9c120ae92de
+      instance_name: c5ee1055b43814cae93852d0ff27da24145c36e1386f76019158bbb6eb4e51f6
+      name: mtls-auth
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    snis:
+    - 1781c7addfcf5d4a1a3c5106f62b93787338247d7eee13ec2a162ce7adc0449b
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - https_redirect_status_code: 426
+    id: f906b3b4-a7d1-46c8-888b-98536df292b8
+    methods:
+    - GET
+    name: ad29c4c83175853addd67c66299bf6187078738e9dfe1a2d658263d7f6178eb8
+    path_handling: v0
+    paths:
+    - /redacted/path/225f657206544d03d3d513d714298511102815cf23ac39ded9b39871f42c7ad8
+    plugins:
+    - config:
+        custom_injections: null
+        enforcement_mode: block
+        error_message: 09d10e5fc1dc3900e1de48d099bc9fbdf11bdf6bff6ae2b33aa7f0b37364343e
+        error_status_code: 400
+        injection_types:
+        - sql
+        - java_exception
+        - js
+        - ssi
+        - xpath_abbreviated
+        - xpath_extended
+        locations:
+        - path_and_query
+      enabled: true
+      id: 4e7f0af4-8907-47e4-9929-90e94a3df8ed
+      instance_name: cbce57dcc1d5a0d564ef2fa080d2986868109b32945d295427edcd8e13f1ec32
+      name: injection-protection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        allowed_header_parameters: af3d7bbb3463192e0dafa70221dab64fcd23b0ca9f0077064db5127241af2fb7
+        api_spec: |
+          openapi: 3.0.3
+          info:
+            title: WOLU Master Products Security POC API
+            version: 1.0.0
+          paths:
+            /security/schema-validation/products/:
+              get:
+                parameters:
+                  - name: status
+                    in: query
+                    required: false
+                    schema:
+                      type: string
+                      enum:
+                        - active
+                        - nonactive
+                  - name: search
+                    in: query
+                    required: false
+                    schema:
+                      type: string
+                  - name: page
+                    in: query
+                    required: false
+                    schema:
+                      type: integer
+                      minimum: 1
+                  - name: size
+                    in: query
+                    required: false
+                    schema:
+                      type: integer
+                      minimum: 1
+                      maximum: 100
+                responses:
+                  "200":
+                    description: Accepted by upstream
+        api_spec_encoded: true
+        collect_all_errors: false
+        custom_base_path: null
+        header_parameter_check: false
+        include_base_path: false
+        notify_only_request_validation_failure: false
+        notify_only_response_body_validation_failure: false
+        query_parameter_check: false
+        validate_request_body: false
+        validate_request_header_params: true
+        validate_request_query_params: true
+        validate_request_uri_params: true
+        validate_response_body: false
+        verbose_response: false
+      enabled: true
+      id: 3d2149c5-643c-47a9-b74a-bad26718d186
+      instance_name: 4149db3b4cb4154b806b026198484a5b1288cc01106110d1c9ee8ee2f8779ff0
+      name: oas-validation
+      protocols:
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 5000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: c3064128-1a57-47f4-8ec6-d43b15199bd6
+  name: 092c778bdd37e129c279470cbdc88000fd43c1ed3ee2394f4403993611cfa125
+  path: /redacted/path/e9a5304fb1e03afb8f1ddea0ff573c25a8cd3957109ded5ff0989dd45c837893
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: cef5699a-47e2-4c44-bc0f-9c2a65036c2a
+    methods:
+    - POST
+    name: 76c36e54e6a80f7b208e4fac4586d3706f910f08930cdf5754bb6dd546d46fc0
+    path_handling: v0
+    paths:
+    - /redacted/path/e1806dd96ee3807217332f4ffdad876fd2a4b177db068727bb651f70e5adb39e
+    plugins:
+    - config:
+        custom_injections: null
+        enforcement_mode: block
+        error_message: 09d10e5fc1dc3900e1de48d099bc9fbdf11bdf6bff6ae2b33aa7f0b37364343e
+        error_status_code: 400
+        injection_types:
+        - sql
+        - java_exception
+        - js
+        - ssi
+        - xpath_abbreviated
+        - xpath_extended
+        locations:
+        - body
+        - path_and_query
+      enabled: true
+      id: 160dbb57-15d7-44d2-9fa9-8234a3d021d2
+      instance_name: 58589333646ac10c7b1167d15191beeb5bcc89cb7fdd92ccc0fb6cc40b82ec84
+      name: injection-protection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        allow_duplicate_object_entry_name: true
+        allow_non_json_requests: false
+        enforcement_mode: block
+        error_message: 09d10e5fc1dc3900e1de48d099bc9fbdf11bdf6bff6ae2b33aa7f0b37364343e
+        error_status_code: 400
+        max_array_element_count: 10
+        max_body_size: 2048
+        max_container_depth: 4
+        max_object_entry_count: -1
+        max_object_entry_name_length: -1
+        max_string_value_length: 128
+      enabled: true
+      id: 8a7fcf4f-9995-4a87-b6bd-488f900c4fc3
+      instance_name: 04cba760bdda9a3125a6ff3bb387406c9f4c4626e59e7a28134c6aa25a4a95c4
+      name: json-threat-protection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        allowed_header_parameters: af3d7bbb3463192e0dafa70221dab64fcd23b0ca9f0077064db5127241af2fb7
+        api_spec: |
+          openapi: 3.0.3
+          info:
+            title: WOLU Store Data Security POC API
+            version: 1.0.0
+          paths:
+            /security/schema-validation/stores-data:
+              post:
+                requestBody:
+                  required: true
+                  content:
+                    application/json:
+                      schema:
+                        type: object
+                        additionalProperties: false
+                        required:
+                          - id_company
+                        properties:
+                          id_company:
+                            type: string
+                            minLength: 1
+                            maxLength: 50
+                responses:
+                  "200":
+                    description: Accepted by upstream
+        api_spec_encoded: true
+        collect_all_errors: false
+        custom_base_path: null
+        header_parameter_check: false
+        include_base_path: false
+        notify_only_request_validation_failure: false
+        notify_only_response_body_validation_failure: false
+        query_parameter_check: false
+        validate_request_body: true
+        validate_request_header_params: true
+        validate_request_query_params: true
+        validate_request_uri_params: true
+        validate_response_body: false
+        verbose_response: false
+      enabled: true
+      id: 5800775d-1067-40f0-9d2f-3b2f8ad4c632
+      instance_name: 65c6c9eaa7f3c22aa19f39a86f0d8583d33917b3acfd33c895318d9d904f610e
+      name: oas-validation
+      protocols:
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        allowed_content_types:
+        - redacted/bb8656400b247f614983ae37ee7c4e5a5898121882177244b8bb8a206971bdab
+        body_schema: 355f1eab907a07264ad6487f2d36a915a34550d49257f042d924691e8a9a1151
+        content_type_parameter_validation: true
+        parameter_schema: null
+        verbose_response: true
+        version: draft4
+      enabled: true
+      id: 0923a80d-2b40-4e91-96f3-496e3e68c540
+      instance_name: e771ac04685bf088bd28e3a97c826d53244cca82f2d6083bc12f600581a732e1
+      name: request-validator
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        allow_dtd: false
+        allowed_content_types:
+        - redacted/bb8656400b247f614983ae37ee7c4e5a5898121882177244b8bb8a206971bdab
+        attribute: 1048576
+        bla_max_amplification: 100
+        bla_threshold: 8388608
+        buffer: 1048576
+        checked_content_types:
+        - redacted/b599e2766aaf04b1789291762f4a1821fc411f955b429e4fee2496ba33195bbc
+        comment: 1024
+        document: 10485760
+        entity: 1024
+        entityname: 1024
+        entityproperty: 1024
+        localname: 1024
+        max_attributes: 5
+        max_children: 5
+        max_depth: 4
+        max_namespaces: 20
+        namespace_aware: true
+        namespaceuri: 1024
+        pidata: 1024
+        pitarget: 1024
+        prefix: 1024
+        text: 1048576
+      enabled: true
+      id: d2b54a4c-d120-4d60-8807-f74b2ea69ac4
+      instance_name: 24e0839f2c2fd5f3a9f0cc32a5ef67d1c20e34fbba21db21f9a2081bd5235179
+      name: xml-threat-protection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - https_redirect_status_code: 426
+    id: 5282e467-820c-4a96-8fdf-605b5d0178bf
+    methods:
+    - POST
+    name: b6ee21f17229fb74287f172adf0c35b6a57c5e4b6d662dd7af18593511d45bd8
+    path_handling: v0
+    paths:
+    - /redacted/path/c077d77b8cb43bcd4b0a889f96600ef9dabee336fe906c3206e2169e313c9812
+    plugins:
+    - config:
+        allow_duplicate_object_entry_name: true
+        allow_non_json_requests: false
+        enforcement_mode: block
+        error_message: 09d10e5fc1dc3900e1de48d099bc9fbdf11bdf6bff6ae2b33aa7f0b37364343e
+        error_status_code: 400
+        max_array_element_count: 10
+        max_body_size: 2048
+        max_container_depth: 4
+        max_object_entry_count: -1
+        max_object_entry_name_length: -1
+        max_string_value_length: 128
+      enabled: true
+      id: 90cc29e7-2f5d-4b69-85bd-a4e2eb716793
+      instance_name: 20cebbf3848f8352ab7663dedd1ac5b20ec5add9aa495f49e0bad72aa48975ce
+      name: json-threat-protection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - config:
+        allow_dtd: false
+        allowed_content_types:
+        - redacted/bb8656400b247f614983ae37ee7c4e5a5898121882177244b8bb8a206971bdab
+        attribute: 1048576
+        bla_max_amplification: 100
+        bla_threshold: 8388608
+        buffer: 1048576
+        checked_content_types:
+        - redacted/b599e2766aaf04b1789291762f4a1821fc411f955b429e4fee2496ba33195bbc
+        comment: 1024
+        document: 10485760
+        entity: 1024
+        entityname: 1024
+        entityproperty: 1024
+        localname: 1024
+        max_attributes: 5
+        max_children: 5
+        max_depth: 4
+        max_namespaces: 20
+        namespace_aware: true
+        namespaceuri: 1024
+        pidata: 1024
+        pitarget: 1024
+        prefix: 1024
+        text: 1048576
+      enabled: true
+      id: 0fcb124d-c281-45ef-9d2c-8dcf08dfa07a
+      instance_name: 3a996424ac10f77d49d17a8948aa79d8ba753d196f72488dfe009bcf3eefcca6
+      name: xml-threat-protection
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tags:
+  - f647ffd4e0c2005cee9d86c57fde78923f54c492d59e9da3cd81ccc39757a281
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 5000
+  enabled: true
+  host: 50dae524923dd3c42daea7dc862479156a97c947b12fe56717e426a1e26e34c2
+  id: 305d8cc6-a1c9-41be-b3fa-984ed2f885fa
+  name: 64ba6745223c3eeadd0487f0bb719fa676e4976d79b34e75e94c553848755971
+  path: /redacted/path/28b0078b54617ccba290f69c0706c8952120d0c41c76961a4a20b8bdf93b4be9
+  port: 443
+  protocol: https
+  read_timeout: 30000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: f58ae6a2-3410-4833-a214-2f30aad6c8ec
+    methods:
+    - GET
+    name: 23166fbfa743133371c24774bf1083b69ba2f1f0daac4286653681b41070301c
+    path_handling: v0
+    paths:
+    - /redacted/path/76e74a67916c4f048fe16502e66e7451801084010ac869af6571248c4c22b12b
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4a6c748670685b8c6f9684649e216cc2abb4dbf64291fbeb550c18923d011a97
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - 4a6c748670685b8c6f9684649e216cc2abb4dbf64291fbeb550c18923d011a97
+  write_timeout: 30000
+- connect_timeout: 1000
+  enabled: true
+  host: 276ee090df495a79f51f568fa6edb14968400ddb1d994dd0491445c8c5ae0868
+  id: bb8eece4-f6d5-490e-af84-bee495251695
+  name: 1567558a86719eb71c6773c1c96bc7a240d2357e009ef0c1de0232a730553cc1
+  path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  port: 8080
+  protocol: http
+  read_timeout: 5000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: 69eaf787-1600-4c24-84b1-f0913c4d4758
+    methods:
+    - GET
+    name: 44e5b72cd16d225fe88d80017d77990da70230017d47d301f83c8980f6c6b45d
+    path_handling: v0
+    paths:
+    - /redacted/path/490db02b97f08209b425245eb87e3f16e6875f3173fb257b40c9308b474e8668
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - e4bb617b7a299c817b181192b6834a3d727309729e39ea5d9b29a017b2467f89
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - e4bb617b7a299c817b181192b6834a3d727309729e39ea5d9b29a017b2467f89
+  write_timeout: 5000
+- connect_timeout: 5000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: 51fabd9e-4910-402e-902d-804e2db02f38
+  name: 5e8a648b4285d0c6e8d6651bab030840286a1b4585c8ebb9e2c956991944398d
+  path: /redacted/path/418689b701d37a767c95fc361c762ac402d1903d3499b88fa8839a6726a31a89
+  plugins:
+  - config:
+      dictionary_name: kong_rate_limiting_counters
+      disable_penalty: true
+      error_code: 429
+      error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+      hide_client_headers: false
+      limit:
+      - 50
+      lock_dictionary_name: kong_locks
+      namespace: adf5d71339c0ade4012866de63f5457571c4c6460be64ee559288eb91fd9f724
+      redis:
+        cloud_authentication: null
+        cluster_addresses: null
+        cluster_max_redirections: 5
+        cluster_nodes: null
+        connect_timeout: 2000
+        connection_is_proxied: false
+        database: 0
+        host: 6f8a2be67fb7f8aad64dc9e7c2bd33421125c6c428b221730e3890d40180031e
+        keepalive_backlog: null
+        keepalive_pool_size: 256
+        password: null
+        port: 6379
+        read_timeout: 2000
+        send_timeout: 2000
+        sentinel_addresses: null
+        sentinel_master: null
+        sentinel_nodes: null
+        sentinel_password: null
+        sentinel_role: null
+        sentinel_username: null
+        server_name: null
+        ssl: false
+        ssl_verify: false
+        timeout: 2000
+        username: null
+      retry_after_jitter_max: 0
+      strategy: redis
+      sync_rate: 0
+      window_size:
+      - 60
+      window_type: sliding
+    enabled: true
+    id: ca1479a3-956c-475c-b4c2-fdbc9bb1aeca
+    instance_name: 7f6c7b52834d013690c76ceec09f6e02d29ebeb85bf71e6c3da5a7517830575b
+    name: service-protection
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+    - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+  port: 443
+  protocol: https
+  read_timeout: 30000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: ee983bb4-4d45-4769-8a94-e9f38e96053e
+    methods:
+    - GET
+    name: 67572325f82b09beb7911d1634d6849a819d60ae0f88a4afd48f45ff129bb878
+    path_handling: v0
+    paths:
+    - /redacted/path/f0a5eb6c50188b1b76a0d54aa19cc5cc2fe7fc0369447e069e813e55d9c41dc0
+    plugins:
+    - config:
+        anonymous: null
+        audience: null
+        audience_claim:
+        - 1963d32bebf5875a315118536d3b1ae8722963efae0e345837a79bf8c4ccc634
+        audience_required: null
+        auth_methods:
+        - bearer
+        authenticated_groups_claim: null
+        authorization_cookie_domain: null
+        authorization_cookie_http_only: true
+        authorization_cookie_name: 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        authorization_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        authorization_cookie_same_site: Default
+        authorization_cookie_secure: null
+        authorization_endpoint: null
+        authorization_query_args_client: null
+        authorization_query_args_names: null
+        authorization_query_args_values: null
+        authorization_rolling_timeout: 600
+        bearer_token_cookie_name: null
+        bearer_token_param_type:
+        - header
+        - query
+        - body
+        by_username_ignore_case: true
+        cache_introspection: true
+        cache_token_exchange: true
+        cache_tokens: true
+        cache_tokens_salt: 5894f8dce83511952c57a3e62355b0be1258a34fbcebdccaf05dcc159c8fa338
+        cache_ttl: 3600
+        cache_ttl_max: null
+        cache_ttl_min: null
+        cache_ttl_neg: null
+        cache_ttl_resurrect: null
+        cache_user_info: true
+        claims_forbidden: null
+        client_alg: null
+        client_arg: d6b549d776ee278cd86103236a98d74401c54e82eea3249e140323e9764fbb59
+        client_auth:
+        - client_secret_post
+        client_credentials_param_type:
+        - header
+        - query
+        - body
+        client_id:
+        - 8e60191749694fe7ead8859ec802629cbb070e0e317c3939da8f6691251600de
+        client_jwk: null
+        client_secret:
+        - 347ea0c94ba27b4ff1179d7abd1af2593c4b42c3655327d037855c83b29b2709
+        cluster_cache_redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        cluster_cache_strategy: "off"
+        consumer_by:
+        - username
+        consumer_claim:
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        consumer_claims:
+        - - email
+        consumer_groups_claim: null
+        consumer_groups_optional: false
+        consumer_optional: false
+        credential_claim:
+        - dadce8c334245d9f7b716ca43545549dded343ac4f09a034502a177868cb84fc
+        disable_session: null
+        discovery_headers_names: null
+        discovery_headers_values: null
+        display_errors: false
+        domains: null
+        downstream_access_token_header: null
+        downstream_access_token_jwk_header: null
+        downstream_headers: null
+        downstream_headers_claims: null
+        downstream_headers_names: null
+        downstream_id_token_header: null
+        downstream_id_token_jwk_header: null
+        downstream_introspection_header: null
+        downstream_introspection_jwt_header: null
+        downstream_refresh_token_header: null
+        downstream_session_id_header: null
+        downstream_user_info_header: null
+        downstream_user_info_jwt_header: null
+        dpop_proof_lifetime: 300
+        dpop_use_nonce: false
+        enable_hs_signatures: false
+        end_session_endpoint: null
+        expose_error_code: true
+        extra_jwks_uris: null
+        forbidden_destroy_session: true
+        forbidden_error_message: 99ea76625b0bc38bcbf3eda012cd73b1bf6dfa780755885025f07a6a932ae8f4
+        forbidden_redirect_uri: null
+        groups_claim:
+        - 4c975aaaa97dbd7fd372e382f183c285bf6d2bd2239c0c7b775dbb739ffdc9fb
+        groups_required: null
+        hide_credentials: false
+        http_proxy: null
+        http_proxy_authorization: null
+        http_version: 1.1
+        https_proxy: null
+        https_proxy_authorization: null
+        id_token_param_name: null
+        id_token_param_type:
+        - header
+        - query
+        - body
+        ignore_signature: []
+        introspect_jwt_tokens: false
+        introspection_accept: application/json
+        introspection_check_active: true
+        introspection_endpoint: null
+        introspection_endpoint_auth_method: null
+        introspection_headers_client: null
+        introspection_headers_names: null
+        introspection_headers_values: null
+        introspection_hint: 767029373b08b133ad9fa23b908eaecebd7316823d9875235e16c58355484d2e
+        introspection_post_args_client: null
+        introspection_post_args_client_headers: null
+        introspection_post_args_names: null
+        introspection_post_args_values: null
+        introspection_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        issuer: 868882cc1aaf25e6d3b955de65237276fa9555eb1734422210c82fefc3ed3293:redacted
+        issuers_allowed: null
+        jwks_endpoint: null
+        jwt_session_claim: 5136263a383cb9d4db4bbe4a2e50244e7cf120f043df181f41085628e9a7079d
+        jwt_session_cookie: null
+        keepalive: true
+        leeway: 0
+        login_action: upstream
+        login_methods:
+        - authorization_code
+        login_redirect_mode: fragment
+        login_redirect_uri: null
+        login_tokens:
+        - id_token
+        logout_methods:
+        - POST
+        - DELETE
+        logout_post_arg: null
+        logout_query_arg: null
+        logout_redirect_uri: null
+        logout_revoke: false
+        logout_revoke_access_token: true
+        logout_revoke_refresh_token: true
+        logout_uri_suffix: null
+        max_age: null
+        mtls_introspection_endpoint: null
+        mtls_revocation_endpoint: null
+        mtls_token_endpoint: null
+        no_proxy: null
+        password_param_type:
+        - header
+        - query
+        - body
+        preserve_query_args: false
+        proof_of_possession_auth_methods_validation: true
+        proof_of_possession_dpop: "off"
+        proof_of_possession_mtls: "off"
+        pushed_authorization_request_endpoint: null
+        pushed_authorization_request_endpoint_auth_method: null
+        redirect_uri: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          prefix: null
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          socket: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        rediscovery_lifetime: 30
+        refresh_token_param_name: null
+        refresh_token_param_type:
+        - header
+        - query
+        - body
+        refresh_tokens: true
+        require_proof_key_for_code_exchange: null
+        require_pushed_authorization_requests: null
+        require_signed_request_object: null
+        resolve_distributed_claims: false
+        response_mode: query
+        response_type:
+        - 5084251e194a3c3bbedc37a44a895e1dd8adb741ed2128eee2f64e8ca6ccf446
+        reverify: false
+        revocation_endpoint: null
+        revocation_endpoint_auth_method: null
+        revocation_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        roles_claim:
+        - df061adfe7c03c91a39dac60cde70174b8947f2946b6e9849057155c56653ade
+        roles_required: null
+        run_on_preflight: true
+        scopes:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        - 1deb2a1334b8447d65ca8cfee70862a24c4bf6502ff385d0fe5f618ba1490fbf
+        scopes_claim:
+        - bbc8ff664be0bc0ba7f33074f1ec6d42529624944981b5052b27204896a3a47a
+        scopes_required: null
+        search_user_info: true
+        session_absolute_timeout: 86400
+        session_audience: d0d7dc786d6531912e3c1b0988220adba2ba55aa39051bf1964250509aac86fe
+        session_bind: null
+        session_cookie_domain: null
+        session_cookie_http_only: true
+        session_cookie_name: b8d9ee2c1d2f9f9067d3a8d0540004c82d687dba4b41ef43bbc4a3620da95e3b
+        session_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        session_cookie_same_site: Lax
+        session_cookie_secure: null
+        session_enforce_same_subject: false
+        session_hash_storage_key: false
+        session_hash_subject: false
+        session_idling_timeout: 900
+        session_memcached_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_memcached_port: 11211
+        session_memcached_prefix: null
+        session_memcached_socket: null
+        session_memcached_ssl: null
+        session_memcached_ssl_verify: false
+        session_redis_cluster_max_redirections: 5
+        session_redis_cluster_nodes: null
+        session_redis_connect_timeout: 2000
+        session_redis_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_redis_password: null
+        session_redis_port: 6379
+        session_redis_prefix: null
+        session_redis_read_timeout: 2000
+        session_redis_send_timeout: 2000
+        session_redis_server_name: null
+        session_redis_socket: null
+        session_redis_ssl: false
+        session_redis_ssl_verify: false
+        session_redis_username: null
+        session_remember: false
+        session_remember_absolute_timeout: 2592000
+        session_remember_cookie_name: 7ab9bed0735800b0754cf7ca3c0639dad45eb8a82032b4e4e0e9d4ae17cd5b30
+        session_remember_rolling_timeout: 604800
+        session_request_headers: null
+        session_response_headers: null
+        session_rolling_timeout: 3600
+        session_secret: redacted/f55211950e3c22120fec67bf1886ea4c53cdcdf21cba0d5007ed5f8651fd0a09
+        session_storage: cookie
+        session_store_metadata: false
+        ssl_verify: false
+        timeout: 10000
+        tls_client_auth_cert_id: null
+        tls_client_auth_ssl_verify: true
+        token_cache_key_include_scope: false
+        token_endpoint: null
+        token_endpoint_auth_method: null
+        token_exchange: null
+        token_exchange_endpoint: null
+        token_headers_client: null
+        token_headers_grants: null
+        token_headers_names: null
+        token_headers_prefix: null
+        token_headers_replay: null
+        token_headers_values: null
+        token_post_args_client: null
+        token_post_args_names: null
+        token_post_args_values: null
+        unauthorized_destroy_session: true
+        unauthorized_error_message: 85dae5f62af612ea56b4543bc214ce3f3ced2aafdee2b408423d628c96de7833
+        unauthorized_redirect_uri: null
+        unexpected_redirect_uri: null
+        upstream_access_token_header: d640e6b3705791625d99c3e99a167c704433b60a17fed9f7d158911bc892c7f9:redacted
+        upstream_access_token_jwk_header: null
+        upstream_headers: null
+        upstream_headers_claims: null
+        upstream_headers_names: null
+        upstream_id_token_header: null
+        upstream_id_token_jwk_header: null
+        upstream_introspection_header: null
+        upstream_introspection_jwt_header: null
+        upstream_refresh_token_header: null
+        upstream_session_id_header: null
+        upstream_user_info_header: null
+        upstream_user_info_jwt_header: null
+        userinfo_accept: application/json
+        userinfo_endpoint: null
+        userinfo_headers_client: null
+        userinfo_headers_names: null
+        userinfo_headers_values: null
+        userinfo_query_args_client: null
+        userinfo_query_args_names: null
+        userinfo_query_args_values: null
+        using_pseudo_issuer: false
+        verify_claims: true
+        verify_nonce: true
+        verify_parameters: false
+        verify_signature: true
+      enabled: true
+      id: 3dfc7565-8963-4ebc-a2b5-728b48999d16
+      instance_name: bf628403cb4ac6ef252772d3a571a9680f1e4b4383f73631a04d62e2b3e16241
+      name: openid-connect
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+      - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+      - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: 88e1f885592470ddf66058315106641585efbf5763ac9ea511e0215ee9b5866f
+        header_name: null
+        hide_client_headers: false
+        identifier: consumer
+        limit:
+        - 30
+        lock_dictionary_name: kong_locks
+        namespace: a464827bed68a9bf878cec7f8b8613b80755d11b97b2093cace73ba5c4a741e7
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 6f8a2be67fb7f8aad64dc9e7c2bd33421125c6c428b221730e3890d40180031e
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: redis
+        sync_rate: 0
+        throttling: null
+        window_size:
+        - 60
+        window_type: fixed
+      enabled: true
+      id: b0397f19-0498-46de-bf01-c397bcf07428
+      instance_name: 7509e14555a86c85e6d3c88f788f97d3dbcf16065a3dafba2fc69974ee1a55c3
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+      - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+      - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+    - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+  - https_redirect_status_code: 426
+    id: 7b352f5f-7472-4ffc-8899-f619399e2c62
+    methods:
+    - GET
+    name: 7c070dc9954b6740ab2da21c9569faaa7e54d71145bebca98d0d7ddf85ff6c14
+    path_handling: v0
+    paths:
+    - /redacted/path/d6f36c94557488a7af4e871d6112115387122544219916d8c4ea62719d6e95d2
+    - /redacted/path/7f252d8770c2151f5c4fd34c8cb2b7d773446aed0a39c7e96e495f6f2ec574dd
+    plugins:
+    - config:
+        anonymous: null
+        audience: null
+        audience_claim:
+        - 1963d32bebf5875a315118536d3b1ae8722963efae0e345837a79bf8c4ccc634
+        audience_required: null
+        auth_methods:
+        - authorization_code
+        - session
+        authenticated_groups_claim: null
+        authorization_cookie_domain: null
+        authorization_cookie_http_only: true
+        authorization_cookie_name: 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        authorization_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        authorization_cookie_same_site: Default
+        authorization_cookie_secure: null
+        authorization_endpoint: null
+        authorization_query_args_client: null
+        authorization_query_args_names: null
+        authorization_query_args_values: null
+        authorization_rolling_timeout: 600
+        bearer_token_cookie_name: null
+        bearer_token_param_type:
+        - header
+        - query
+        - body
+        by_username_ignore_case: false
+        cache_introspection: true
+        cache_token_exchange: true
+        cache_tokens: true
+        cache_tokens_salt: fa9ade1ecaa06a4540966a3a7419705025f9f660b561155518b4c13aad1c22f2
+        cache_ttl: 3600
+        cache_ttl_max: null
+        cache_ttl_min: null
+        cache_ttl_neg: null
+        cache_ttl_resurrect: null
+        cache_user_info: true
+        claims_forbidden: null
+        client_alg: null
+        client_arg: d6b549d776ee278cd86103236a98d74401c54e82eea3249e140323e9764fbb59
+        client_auth:
+        - client_secret_post
+        client_credentials_param_type:
+        - header
+        - query
+        - body
+        client_id:
+        - 8e60191749694fe7ead8859ec802629cbb070e0e317c3939da8f6691251600de
+        client_jwk: null
+        client_secret:
+        - 347ea0c94ba27b4ff1179d7abd1af2593c4b42c3655327d037855c83b29b2709
+        cluster_cache_redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        cluster_cache_strategy: "off"
+        consumer_by:
+        - username
+        consumer_claim:
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        consumer_claims:
+        - - email
+        consumer_groups_claim: null
+        consumer_groups_optional: false
+        consumer_optional: false
+        credential_claim:
+        - dadce8c334245d9f7b716ca43545549dded343ac4f09a034502a177868cb84fc
+        disable_session: null
+        discovery_headers_names: null
+        discovery_headers_values: null
+        display_errors: false
+        domains: null
+        downstream_access_token_header: null
+        downstream_access_token_jwk_header: null
+        downstream_headers: null
+        downstream_headers_claims: null
+        downstream_headers_names: null
+        downstream_id_token_header: null
+        downstream_id_token_jwk_header: null
+        downstream_introspection_header: null
+        downstream_introspection_jwt_header: null
+        downstream_refresh_token_header: null
+        downstream_session_id_header: null
+        downstream_user_info_header: null
+        downstream_user_info_jwt_header: null
+        dpop_proof_lifetime: 300
+        dpop_use_nonce: false
+        enable_hs_signatures: false
+        end_session_endpoint: null
+        expose_error_code: true
+        extra_jwks_uris: null
+        forbidden_destroy_session: true
+        forbidden_error_message: 99ea76625b0bc38bcbf3eda012cd73b1bf6dfa780755885025f07a6a932ae8f4
+        forbidden_redirect_uri: null
+        groups_claim:
+        - 4c975aaaa97dbd7fd372e382f183c285bf6d2bd2239c0c7b775dbb739ffdc9fb
+        groups_required: null
+        hide_credentials: false
+        http_proxy: null
+        http_proxy_authorization: null
+        http_version: 1.1
+        https_proxy: null
+        https_proxy_authorization: null
+        id_token_param_name: null
+        id_token_param_type:
+        - header
+        - query
+        - body
+        ignore_signature: []
+        introspect_jwt_tokens: false
+        introspection_accept: application/json
+        introspection_check_active: true
+        introspection_endpoint: null
+        introspection_endpoint_auth_method: null
+        introspection_headers_client: null
+        introspection_headers_names: null
+        introspection_headers_values: null
+        introspection_hint: 767029373b08b133ad9fa23b908eaecebd7316823d9875235e16c58355484d2e
+        introspection_post_args_client: null
+        introspection_post_args_client_headers: null
+        introspection_post_args_names: null
+        introspection_post_args_values: null
+        introspection_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        issuer: 868882cc1aaf25e6d3b955de65237276fa9555eb1734422210c82fefc3ed3293:redacted
+        issuers_allowed: null
+        jwks_endpoint: null
+        jwt_session_claim: 5136263a383cb9d4db4bbe4a2e50244e7cf120f043df181f41085628e9a7079d
+        jwt_session_cookie: null
+        keepalive: true
+        leeway: 0
+        login_action: redirect
+        login_methods:
+        - authorization_code
+        login_redirect_mode: fragment
+        login_redirect_uri:
+        - c74838b3ca0b51813c2d24c798f81c604651dcdd8f54e602761e9ecf79ebecff:redacted
+        login_tokens:
+        - id_token
+        logout_methods:
+        - POST
+        - DELETE
+        logout_post_arg: null
+        logout_query_arg: null
+        logout_redirect_uri: null
+        logout_revoke: false
+        logout_revoke_access_token: true
+        logout_revoke_refresh_token: true
+        logout_uri_suffix: null
+        max_age: null
+        mtls_introspection_endpoint: null
+        mtls_revocation_endpoint: null
+        mtls_token_endpoint: null
+        no_proxy: null
+        password_param_type:
+        - header
+        - query
+        - body
+        preserve_query_args: false
+        proof_of_possession_auth_methods_validation: true
+        proof_of_possession_dpop: "off"
+        proof_of_possession_mtls: "off"
+        pushed_authorization_request_endpoint: null
+        pushed_authorization_request_endpoint_auth_method: null
+        redirect_uri:
+        - c74838b3ca0b51813c2d24c798f81c604651dcdd8f54e602761e9ecf79ebecff:redacted
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          prefix: null
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          socket: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        rediscovery_lifetime: 30
+        refresh_token_param_name: null
+        refresh_token_param_type:
+        - header
+        - query
+        - body
+        refresh_tokens: true
+        require_proof_key_for_code_exchange: null
+        require_pushed_authorization_requests: null
+        require_signed_request_object: null
+        resolve_distributed_claims: false
+        response_mode: query
+        response_type:
+        - 5084251e194a3c3bbedc37a44a895e1dd8adb741ed2128eee2f64e8ca6ccf446
+        reverify: false
+        revocation_endpoint: null
+        revocation_endpoint_auth_method: null
+        revocation_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        roles_claim:
+        - df061adfe7c03c91a39dac60cde70174b8947f2946b6e9849057155c56653ade
+        roles_required: null
+        run_on_preflight: true
+        scopes:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        - 08bd2be49894b0b8d8f9b113beb7d828caaac1153462dafa038e523f0ebeb610
+        - 1deb2a1334b8447d65ca8cfee70862a24c4bf6502ff385d0fe5f618ba1490fbf
+        scopes_claim:
+        - bbc8ff664be0bc0ba7f33074f1ec6d42529624944981b5052b27204896a3a47a
+        scopes_required: null
+        search_user_info: false
+        session_absolute_timeout: 86400
+        session_audience: d0d7dc786d6531912e3c1b0988220adba2ba55aa39051bf1964250509aac86fe
+        session_bind: null
+        session_cookie_domain: null
+        session_cookie_http_only: true
+        session_cookie_name: b8d9ee2c1d2f9f9067d3a8d0540004c82d687dba4b41ef43bbc4a3620da95e3b
+        session_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        session_cookie_same_site: Lax
+        session_cookie_secure: null
+        session_enforce_same_subject: false
+        session_hash_storage_key: false
+        session_hash_subject: false
+        session_idling_timeout: 900
+        session_memcached_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_memcached_port: 11211
+        session_memcached_prefix: null
+        session_memcached_socket: null
+        session_memcached_ssl: null
+        session_memcached_ssl_verify: false
+        session_redis_cluster_max_redirections: 5
+        session_redis_cluster_nodes: null
+        session_redis_connect_timeout: 2000
+        session_redis_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_redis_password: null
+        session_redis_port: 6379
+        session_redis_prefix: null
+        session_redis_read_timeout: 2000
+        session_redis_send_timeout: 2000
+        session_redis_server_name: null
+        session_redis_socket: null
+        session_redis_ssl: false
+        session_redis_ssl_verify: false
+        session_redis_username: null
+        session_remember: false
+        session_remember_absolute_timeout: 2592000
+        session_remember_cookie_name: 7ab9bed0735800b0754cf7ca3c0639dad45eb8a82032b4e4e0e9d4ae17cd5b30
+        session_remember_rolling_timeout: 604800
+        session_request_headers: null
+        session_response_headers: null
+        session_rolling_timeout: 3600
+        session_secret: redacted/f55211950e3c22120fec67bf1886ea4c53cdcdf21cba0d5007ed5f8651fd0a09
+        session_storage: cookie
+        session_store_metadata: false
+        ssl_verify: false
+        timeout: 10000
+        tls_client_auth_cert_id: null
+        tls_client_auth_ssl_verify: true
+        token_cache_key_include_scope: false
+        token_endpoint: null
+        token_endpoint_auth_method: null
+        token_exchange: null
+        token_exchange_endpoint: null
+        token_headers_client: null
+        token_headers_grants: null
+        token_headers_names: null
+        token_headers_prefix: null
+        token_headers_replay: null
+        token_headers_values: null
+        token_post_args_client: null
+        token_post_args_names: null
+        token_post_args_values: null
+        unauthorized_destroy_session: true
+        unauthorized_error_message: 85dae5f62af612ea56b4543bc214ce3f3ced2aafdee2b408423d628c96de7833
+        unauthorized_redirect_uri: null
+        unexpected_redirect_uri: null
+        upstream_access_token_header: d640e6b3705791625d99c3e99a167c704433b60a17fed9f7d158911bc892c7f9:redacted
+        upstream_access_token_jwk_header: null
+        upstream_headers: null
+        upstream_headers_claims: null
+        upstream_headers_names: null
+        upstream_id_token_header: null
+        upstream_id_token_jwk_header: null
+        upstream_introspection_header: null
+        upstream_introspection_jwt_header: null
+        upstream_refresh_token_header: null
+        upstream_session_id_header: null
+        upstream_user_info_header: null
+        upstream_user_info_jwt_header: null
+        userinfo_accept: application/json
+        userinfo_endpoint: null
+        userinfo_headers_client: null
+        userinfo_headers_names: null
+        userinfo_headers_values: null
+        userinfo_query_args_client: null
+        userinfo_query_args_names: null
+        userinfo_query_args_values: null
+        using_pseudo_issuer: false
+        verify_claims: true
+        verify_nonce: true
+        verify_parameters: false
+        verify_signature: true
+      enabled: true
+      id: 75c0c224-684f-4993-a2aa-101b6b0436bb
+      instance_name: 9d3930e4a246e3c4be62cdfe8194bca724de5d4860897c286e83fe0b2c57af3e
+      name: openid-connect
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+      - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+      - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: 88e1f885592470ddf66058315106641585efbf5763ac9ea511e0215ee9b5866f
+        header_name: null
+        hide_client_headers: false
+        identifier: consumer
+        limit:
+        - 30
+        lock_dictionary_name: kong_locks
+        namespace: 1d15377caaf57aa8e90262a851d9da581cd087fb5e923731e00a39688c17ccde
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 6f8a2be67fb7f8aad64dc9e7c2bd33421125c6c428b221730e3890d40180031e
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: redis
+        sync_rate: 0
+        throttling: null
+        window_size:
+        - 60
+        window_type: fixed
+      enabled: true
+      id: bb18e272-703b-4bf9-aa94-c0c0497556c4
+      instance_name: b12d3578b8c240d598eb0b23181f4a5d82064371143fcd35087c4ace41b018a5
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+      - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+      - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+      - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+    - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+    - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - 4498c66f71886c2619a794dcd4ea352528c00c4eaeb9ca4fb626add7aa5e5340
+  - ec1117abe3e8d9acf38f90269367147660c9aa146bb4994c233a92236427aeec
+  - 6dccebe4ae16b69754ed3619753dcabf334c6e61cb4e987e8acc7082edf6016c
+  write_timeout: 30000
+- connect_timeout: 5000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: 29cc7976-bbb5-4bd1-b6a8-a0e4124f9697
+  name: 6712e51daf1aed2e4a27cef1db645d093d4f3dfe798a94ad17cde0d02a7557f7
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - hosts:
+    - d57cb9963e8ea3a01724357c7e5d1da4f3bd3996784ea0e841fd58f03ea9b008
+    https_redirect_status_code: 426
+    id: 9f7bf148-dd44-489f-8cad-a4ab01fbf85f
+    methods:
+    - GET
+    name: 2825b26dbac8e7ddd1165b0a9f909e59a72c224bd473ccbe5bc82637720df918
+    path_handling: v0
+    paths:
+    - /redacted/path/9725c1b13e9597ecf3d436e1598e510aa6ee0e4c78895b08815ab84d9a631541
+    plugins:
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: 75b2b0c1431a727f79e6f63037998474d4135e4c7f97064ad8ab186facf6daa3
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 3
+        lock_dictionary_name: kong_locks
+        namespace: 6273a3362b3a7f4663d2e996bf7a4978cd40462f10a2e21805d9c7404889001c
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: a0d2d399-2a92-4755-9aec-f2496a60b809
+      instance_name: 0d7aad04d59452e9cd076acb398b5a61560bcf237e338886b485a50daaa80db2
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+      - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: false
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  - https_redirect_status_code: 426
+    id: 407c2936-aa58-498d-adc0-e29f62e98222
+    methods:
+    - GET
+    name: f6372597492794e0e12cfb7cc75689af26f5c460f0e7fd90ee8c7397c2da8f66
+    path_handling: v0
+    paths:
+    - /redacted/path/9725c1b13e9597ecf3d436e1598e510aa6ee0e4c78895b08815ab84d9a631541
+    plugins:
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: 75b2b0c1431a727f79e6f63037998474d4135e4c7f97064ad8ab186facf6daa3
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 3
+        lock_dictionary_name: kong_locks
+        namespace: 0d8ba8657ee1ae167cc418f0647936a3400136db9d882e70f9f20fb81d9ff4ef
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: a397c7e2-0b4c-4a03-a041-d695c7efe3de
+      instance_name: cf7cc9b4af3f9b528132df0653bd3c3de7118b3d656f9b765239d4355a05bd80
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+      - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: false
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  - hosts:
+    - 39e2f73ec268715f710765010e38686626b994b10121d9980e50cae6cf8bd612
+    https_redirect_status_code: 426
+    id: 0d65ada7-f790-44eb-a0ed-80537331aeea
+    methods:
+    - GET
+    name: 3c12da2767ce1169ffb4d5c009d265eea473d37fa4034d5d38edda4d8d6a5147
+    path_handling: v0
+    paths:
+    - /redacted/path/830ab11750e1b494191c7ced3796aca3d5f2e3a1a87aa4a6cc77df7659e76327
+    plugins:
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: 575cff285236c416ac1f8912fa4d2ca9df2078d3b4a5806c2ecbf653aa166eb6
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 3
+        lock_dictionary_name: kong_locks
+        namespace: fdd216d9a102f53727757f5de71341fc57e423d9c7e7dc69de31b349f6e4dac8
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: 20099933-9828-4167-a72d-469f0492cbec
+      instance_name: c1169a7d35bb37b77d742e4eb5ea8e457990e5e08dfcd576d626ac3832ad3f81
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+      - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: false
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  - https_redirect_status_code: 426
+    id: ccde0f8c-1c0b-45d6-940f-1627fb1aa587
+    methods:
+    - GET
+    name: 4e45961ba5019b6ba5b92d0e4ba0d8d289e2520c10be02fef7675f5e854801ac
+    path_handling: v0
+    paths:
+    - /redacted/path/830ab11750e1b494191c7ced3796aca3d5f2e3a1a87aa4a6cc77df7659e76327
+    plugins:
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: 575cff285236c416ac1f8912fa4d2ca9df2078d3b4a5806c2ecbf653aa166eb6
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 3
+        lock_dictionary_name: kong_locks
+        namespace: e3c7cae84ec868fddc109d545765b2b58f6807368ed6bbd20eff9a33757df3a4
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: 1ba285b3-2bf9-474d-920d-c02230a4cbf3
+      instance_name: d3e057d8a9e8450c3a84eaf2ce2d8dc10af601c6109ede81782bd990d3bccaf8
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+      - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: false
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  tags:
+  - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+  - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 5000
+  enabled: true
+  host: 50dae524923dd3c42daea7dc862479156a97c947b12fe56717e426a1e26e34c2
+  id: 2861bd42-f985-402b-82eb-48b4aa0133da
+  name: 47e8285a5f57eaae50c89f727f9490a06d0a9795a1fb2f54f6a46203b3561cde
+  port: 443
+  protocol: https
+  read_timeout: 10000
+  retries: 2
+  routes:
+  - hosts:
+    - 186bb807d606daea39608a9207c52015b13237a23873a044510cc10dc9c2d6d2
+    https_redirect_status_code: 426
+    id: df627a92-f936-4c32-93bf-9d1bfdf4659d
+    methods:
+    - GET
+    name: 92a32e67ee8ccde1a9c4b163e9f5473d6ca0b3a840f6fc0d344ef747695149e7
+    path_handling: v0
+    paths:
+    - /redacted/path/28b0078b54617ccba290f69c0706c8952120d0c41c76961a4a20b8bdf93b4be9
+    plugins:
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: e3a31a76ff1d92f731360d86d61343e1dd8259a92f06fadc7cbca0831d0750d6
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 10
+        lock_dictionary_name: kong_locks
+        namespace: 61bf14e1cbc7ddc2a6ceedfcf06b618f0e43c9c6490326ad0e0a41520e788603
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: 2add9cc7-3d1e-460c-ad0d-e7c37eda43dd
+      instance_name: 318a6c0f5f7415f614cc554599efcec25b57b49b83d15ea511058e3e782c7d04
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+      - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: false
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  - https_redirect_status_code: 426
+    id: 49401554-3481-45e0-bd9f-809a2bdaa17b
+    methods:
+    - GET
+    name: d328a516d3ef03bd9e155a5dde3fa3f1ebd1417f0027c2df1ceefbd4bd26866e
+    path_handling: v0
+    paths:
+    - /redacted/path/28b0078b54617ccba290f69c0706c8952120d0c41c76961a4a20b8bdf93b4be9
+    plugins:
+    - config:
+        compound_identifier: null
+        consumer_groups: null
+        dictionary_name: kong_rate_limiting_counters
+        disable_penalty: false
+        enforce_consumer_groups: false
+        error_code: 429
+        error_message: e3a31a76ff1d92f731360d86d61343e1dd8259a92f06fadc7cbca0831d0750d6
+        header_name: null
+        hide_client_headers: false
+        identifier: ip
+        limit:
+        - 10
+        lock_dictionary_name: kong_locks
+        namespace: 13302fba1373e810987daf92feac794156ec8704fc3d2c7e9be0c1d830267fb3
+        path: null
+        redis:
+          cloud_authentication: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          redis_proxy_type: null
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        retry_after_jitter_max: 0
+        strategy: local
+        sync_rate: null
+        throttling: null
+        window_size:
+        - 60
+        window_type: sliding
+      enabled: true
+      id: e9f91df8-7110-4bb3-bc24-711a9b9b1c22
+      instance_name: 665ed63d02e38274e024845806915955ea066e2ba16d3c8a3f38b6f8afce9f00
+      name: rate-limiting-advanced
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+      tags:
+      - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+      - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: false
+    tags:
+    - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+    - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  tags:
+  - 5625c349eb5b3cc495e0c3c695c73db99e6c8ffece76c08c9336d6cee4e8da29
+  - 7b0b0e9e84b164bd2bbeee315958debe10bca80fc9127c650225425a51f8c7b4
+  tls_verify: false
+  write_timeout: 10000
+- connect_timeout: 2000
+  enabled: true
+  host: e7b6d2b86b2165d0ebba9151a6f347f46815b9d71121c800450673c0aa819f13
+  id: 8fedc224-ee08-42bd-a296-2dc2121a9e96
+  name: 15d1de06493d95852054aa4848410bc2e6853493a9c22ee77f318c1a7fe0557f
+  path: /redacted/path/9725c1b13e9597ecf3d436e1598e510aa6ee0e4c78895b08815ab84d9a631541
+  plugins:
+  - config:
+      anonymous: null
+      claims_to_verify:
+      - exp
+      cookie_names: []
+      header_names:
+      - 8b6f299475df84b77e406c627aa6839ce6e525cab8e5367fa2e057a1dd59f7ae
+      key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+      maximum_expiration: 0
+      realm: null
+      run_on_preflight: true
+      secret_is_base64: false
+      uri_param_names:
+      - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+    enabled: false
+    id: 108e10c5-2906-4c6e-90b9-e20931d12954
+    name: jwt
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+  port: 443
+  protocol: https
+  read_timeout: 3000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: f6ac8c7f-0541-497d-8f74-b179157e8690
+    methods:
+    - GET
+    - POST
+    - DELETE
+    - PUT
+    name: 09f337dc31f1a894565a891e4934a48c64b6e9c3731ea84a58031da124c290ef
+    path_handling: v0
+    paths:
+    - /redacted/path/0c115a7410d3156cb419a0962a889ef0fddc6addfe0e6d783246b41191b413cf
+    plugins:
+    - config:
+        anonymous: null
+        claims_to_verify:
+        - exp
+        cookie_names: []
+        header_names:
+        - 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+        maximum_expiration: 0
+        realm: null
+        run_on_preflight: true
+        secret_is_base64: false
+        uri_param_names:
+        - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+      enabled: false
+      id: 6cdb3dc1-d61c-4614-8c2e-41184b5f614a
+      name: jwt
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    - config:
+        day: null
+        error_code: 429
+        error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+        fault_tolerant: false
+        header_name: null
+        hide_client_headers: false
+        hour: null
+        limit_by: consumer
+        minute: 1000
+        month: null
+        path: null
+        policy: redis
+        redis:
+          cloud_authentication: null
+          database: 0
+          host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+          password: null
+          port: 6379
+          server_name: null
+          ssl: false
+          ssl_verify: true
+          timeout: 2000
+          username: null
+        redis_database: 0
+        redis_host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+        redis_password: null
+        redis_port: 6379
+        redis_server_name: null
+        redis_ssl: false
+        redis_ssl_verify: true
+        redis_timeout: 2000
+        redis_username: null
+        second: null
+        sync_rate: -1
+        year: null
+      enabled: true
+      id: 084bbd85-04d0-4f5b-a918-d7cf78377a2b
+      name: rate-limiting
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    preserve_host: true
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 3000
+- connect_timeout: 2000
+  enabled: true
+  host: 521b13cf2659dd6bb32dadf026dd9e261ba509067146fc01fee380aa065abeec
+  id: 330c4925-8cea-4766-9721-ea475ed8e7c2
+  name: b1097d412c152a3e8aa9fe1265077504885fc08be3b23695363459c13a37f994
+  plugins:
+  - config:
+      anonymous: null
+      claims_to_verify:
+      - exp
+      cookie_names: []
+      header_names:
+      - 8b6f299475df84b77e406c627aa6839ce6e525cab8e5367fa2e057a1dd59f7ae
+      key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+      maximum_expiration: 0
+      realm: null
+      run_on_preflight: true
+      secret_is_base64: false
+      uri_param_names:
+      - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+    enabled: false
+    id: bd79282e-3f90-4273-bc3f-a6c8767c6fb1
+    name: jwt
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+  port: 443
+  protocol: https
+  read_timeout: 3000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: e53a10d4-8edb-4a85-9632-1ca88714d951
+    methods:
+    - GET
+    - POST
+    - DELETE
+    - PUT
+    name: a7a0467294537cab33c7aea79e05502cfa17af03df58addf8a89dbb72d4a6291
+    path_handling: v0
+    paths:
+    - /redacted/path/c028e27a23c1a2e8341abc2959e7ff50555b25871e52ddd8094e4e569a19b811
+    plugins:
+    - config:
+        anonymous: null
+        claims_to_verify:
+        - exp
+        cookie_names: []
+        header_names:
+        - 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+        maximum_expiration: 0
+        realm: null
+        run_on_preflight: true
+        secret_is_base64: false
+        uri_param_names:
+        - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+      enabled: false
+      id: a95cefdc-e785-4b93-b230-60eeeb8c743a
+      name: jwt
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    - config:
+        day: null
+        error_code: 429
+        error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+        fault_tolerant: false
+        header_name: null
+        hide_client_headers: false
+        hour: null
+        limit_by: consumer
+        minute: 1000
+        month: null
+        path: null
+        policy: redis
+        redis:
+          cloud_authentication: null
+          database: 0
+          host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+          password: null
+          port: 6379
+          server_name: null
+          ssl: false
+          ssl_verify: true
+          timeout: 2000
+          username: null
+        redis_database: 0
+        redis_host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+        redis_password: null
+        redis_port: 6379
+        redis_server_name: null
+        redis_ssl: false
+        redis_ssl_verify: true
+        redis_timeout: 2000
+        redis_username: null
+        second: null
+        sync_rate: -1
+        year: null
+      enabled: false
+      id: a49bf394-8f77-44d1-9b86-a1181fcb55ed
+      name: rate-limiting
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    preserve_host: true
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 3000
+- connect_timeout: 2000
+  enabled: true
+  host: 6e025f36ae8d9d9ae93fa71c205324313ff53ffeeff122bf3a0149416d06b199
+  id: 2875e732-9a8f-4b5e-8bed-0b1e69be339f
+  name: 3f94415cb29b9d98e2e67156b924991945d1c665e12c86d66a6b9b8cac1eff2f
+  plugins:
+  - config:
+      anonymous: null
+      claims_to_verify:
+      - exp
+      cookie_names: []
+      header_names:
+      - 8b6f299475df84b77e406c627aa6839ce6e525cab8e5367fa2e057a1dd59f7ae
+      key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+      maximum_expiration: 0
+      realm: null
+      run_on_preflight: true
+      secret_is_base64: false
+      uri_param_names:
+      - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+    enabled: false
+    id: 35ae8b2b-4e8a-4640-81fe-f37e96f3c7b9
+    name: jwt
+    protocols:
+    - grpc
+    - grpcs
+    - http
+    - https
+  port: 443
+  protocol: https
+  read_timeout: 3000
+  retries: 2
+  routes:
+  - https_redirect_status_code: 426
+    id: e8a975b0-f981-4116-a9f1-b95d54c52786
+    methods:
+    - GET
+    - POST
+    - DELETE
+    - PUT
+    name: a170c0926cdb988dd0c28615d1a442866adc111d469414fa6b85697e8effa01d
+    path_handling: v0
+    paths:
+    - /redacted/path/28b0078b54617ccba290f69c0706c8952120d0c41c76961a4a20b8bdf93b4be9
+    plugins:
+    - config:
+        anonymous: null
+        claims_to_verify:
+        - exp
+        cookie_names: []
+        header_names:
+        - 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        key_claim_name: 4f9a06b3b391a71eaadccda445b521b9808f62d3a62338c215e5db9d9366e817
+        maximum_expiration: 0
+        realm: null
+        run_on_preflight: true
+        secret_is_base64: false
+        uri_param_names:
+        - e84517177dce4490d879a4af368c9841813aa73e6c7d041331b9903b8355fd9d
+      enabled: false
+      id: d74c1ebd-3d66-4e0a-a872-3b2c11639c0d
+      name: jwt
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    - config:
+        anonymous: null
+        audience: null
+        audience_claim:
+        - 1963d32bebf5875a315118536d3b1ae8722963efae0e345837a79bf8c4ccc634
+        audience_required: null
+        auth_methods:
+        - password
+        - client_credentials
+        - authorization_code
+        - bearer
+        - introspection
+        - userinfo
+        - kong_oauth2
+        - refresh_token
+        - session
+        authenticated_groups_claim: null
+        authorization_cookie_domain: null
+        authorization_cookie_http_only: true
+        authorization_cookie_name: 0107745a801b27584e8ea8e71235a7b298f75fea21a52afe13badbbb8be66c3b
+        authorization_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        authorization_cookie_same_site: Default
+        authorization_cookie_secure: null
+        authorization_endpoint: null
+        authorization_query_args_client: null
+        authorization_query_args_names: null
+        authorization_query_args_values: null
+        authorization_rolling_timeout: 600
+        bearer_token_cookie_name: null
+        bearer_token_param_type:
+        - header
+        - query
+        - body
+        by_username_ignore_case: false
+        cache_introspection: true
+        cache_token_exchange: true
+        cache_tokens: true
+        cache_tokens_salt: c91671d7f96d23e3a7694e865ffe806a0bf002f780afd8237b1670293f67354c
+        cache_ttl: 3600
+        cache_ttl_max: null
+        cache_ttl_min: null
+        cache_ttl_neg: null
+        cache_ttl_resurrect: null
+        cache_user_info: true
+        claims_forbidden: null
+        client_alg: null
+        client_arg: d6b549d776ee278cd86103236a98d74401c54e82eea3249e140323e9764fbb59
+        client_auth: null
+        client_credentials_param_type:
+        - header
+        - query
+        - body
+        client_id:
+        - 8cd7fffbe80518bf4e77a1f78128e9a30252f609e750f592b09ab588dd3c50ec
+        client_jwk: null
+        client_secret:
+        - fd38807446e17d2b71f85c0f49d472f173419011ddf230bd93bf9c2a320551c9
+        cluster_cache_redis:
+          cloud_authentication:
+            auth_provider: null
+            aws_access_key_id: null
+            aws_assume_role_arn: null
+            aws_cache_name: null
+            aws_is_serverless: true
+            aws_region: null
+            aws_role_session_name: null
+            aws_secret_access_key: null
+            azure_client_id: null
+            azure_client_secret: null
+            azure_tenant_id: null
+            gcp_service_account_json: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        cluster_cache_strategy: "off"
+        consumer_by:
+        - username
+        - custom_id
+        consumer_claims: null
+        consumer_groups_claim: null
+        consumer_groups_optional: false
+        consumer_optional: false
+        credential_claim:
+        - dadce8c334245d9f7b716ca43545549dded343ac4f09a034502a177868cb84fc
+        disable_session: null
+        discovery_headers_names: null
+        discovery_headers_values: null
+        display_errors: false
+        domains: null
+        downstream_access_token_header: null
+        downstream_access_token_jwk_header: null
+        downstream_headers: null
+        downstream_headers_claims: null
+        downstream_headers_names: null
+        downstream_id_token_header: null
+        downstream_id_token_jwk_header: null
+        downstream_introspection_header: null
+        downstream_introspection_jwt_header: null
+        downstream_refresh_token_header: null
+        downstream_session_id_header: null
+        downstream_user_info_header: null
+        downstream_user_info_jwt_header: null
+        dpop_proof_lifetime: 300
+        dpop_use_nonce: false
+        enable_hs_signatures: false
+        end_session_endpoint: null
+        expose_error_code: true
+        extra_jwks_uris: null
+        forbidden_destroy_session: true
+        forbidden_error_message: 99ea76625b0bc38bcbf3eda012cd73b1bf6dfa780755885025f07a6a932ae8f4
+        forbidden_redirect_uri: null
+        groups_claim:
+        - 4c975aaaa97dbd7fd372e382f183c285bf6d2bd2239c0c7b775dbb739ffdc9fb
+        groups_required: null
+        hide_credentials: false
+        http_proxy: null
+        http_proxy_authorization: null
+        http_version: 1.1
+        https_proxy: null
+        https_proxy_authorization: null
+        id_token_param_name: null
+        id_token_param_type:
+        - header
+        - query
+        - body
+        ignore_signature: []
+        introspect_jwt_tokens: false
+        introspection_accept: application/json
+        introspection_check_active: true
+        introspection_endpoint: null
+        introspection_endpoint_auth_method: null
+        introspection_headers_client: null
+        introspection_headers_names: null
+        introspection_headers_values: null
+        introspection_hint: 767029373b08b133ad9fa23b908eaecebd7316823d9875235e16c58355484d2e
+        introspection_post_args_client: null
+        introspection_post_args_client_headers: null
+        introspection_post_args_names: null
+        introspection_post_args_values: null
+        introspection_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        issuer: 54db44f36f1443d1d419f50c48330b57f27d11964a6ef6d6860366a2f7be981e:redacted
+        issuers_allowed: null
+        jwks_endpoint: null
+        jwt_session_claim: 5136263a383cb9d4db4bbe4a2e50244e7cf120f043df181f41085628e9a7079d
+        jwt_session_cookie: null
+        keepalive: true
+        leeway: 0
+        login_action: upstream
+        login_methods:
+        - authorization_code
+        login_redirect_mode: fragment
+        login_redirect_uri: null
+        login_tokens:
+        - id_token
+        logout_methods:
+        - POST
+        - DELETE
+        logout_post_arg: null
+        logout_query_arg: null
+        logout_redirect_uri: null
+        logout_revoke: false
+        logout_revoke_access_token: true
+        logout_revoke_refresh_token: true
+        logout_uri_suffix: null
+        max_age: null
+        mtls_introspection_endpoint: null
+        mtls_revocation_endpoint: null
+        mtls_token_endpoint: null
+        no_proxy: null
+        password_param_type:
+        - header
+        - query
+        - body
+        preserve_query_args: false
+        proof_of_possession_auth_methods_validation: true
+        proof_of_possession_dpop: "off"
+        proof_of_possession_mtls: "off"
+        pushed_authorization_request_endpoint: null
+        pushed_authorization_request_endpoint_auth_method: null
+        redirect_uri: null
+        redis:
+          cloud_authentication:
+            auth_provider: null
+            aws_access_key_id: null
+            aws_assume_role_arn: null
+            aws_cache_name: null
+            aws_is_serverless: true
+            aws_region: null
+            aws_role_session_name: null
+            aws_secret_access_key: null
+            azure_client_id: null
+            azure_client_secret: null
+            azure_tenant_id: null
+            gcp_service_account_json: null
+          cluster_addresses: null
+          cluster_max_redirections: 5
+          cluster_nodes: null
+          connect_timeout: 2000
+          connection_is_proxied: false
+          database: 0
+          host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+          keepalive_backlog: null
+          keepalive_pool_size: 256
+          password: null
+          port: 6379
+          prefix: null
+          read_timeout: 2000
+          send_timeout: 2000
+          sentinel_addresses: null
+          sentinel_master: null
+          sentinel_nodes: null
+          sentinel_password: null
+          sentinel_role: null
+          sentinel_username: null
+          server_name: null
+          socket: null
+          ssl: false
+          ssl_verify: false
+          timeout: 2000
+          username: null
+        rediscovery_lifetime: 30
+        refresh_token_param_name: null
+        refresh_token_param_type:
+        - header
+        - query
+        - body
+        refresh_tokens: true
+        require_proof_key_for_code_exchange: null
+        require_pushed_authorization_requests: null
+        require_signed_request_object: null
+        resolve_distributed_claims: false
+        response_mode: query
+        response_type:
+        - 5084251e194a3c3bbedc37a44a895e1dd8adb741ed2128eee2f64e8ca6ccf446
+        reverify: false
+        revocation_endpoint: null
+        revocation_endpoint_auth_method: null
+        revocation_token_param_name: 551f2ee4a937b0c9c47b66beac76b56ffcda272c03d639d457c95e5ec6d6cde0
+        roles_claim:
+        - df061adfe7c03c91a39dac60cde70174b8947f2946b6e9849057155c56653ade
+        roles_required: null
+        run_on_preflight: true
+        scopes:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        scopes_claim:
+        - d99b2dee56550572c466756f14041710baa0b3523a29119b38f05e3b9f9ce0e1
+        scopes_required: null
+        search_user_info: false
+        session_absolute_timeout: 86400
+        session_audience: d0d7dc786d6531912e3c1b0988220adba2ba55aa39051bf1964250509aac86fe
+        session_bind: null
+        session_cookie_domain: null
+        session_cookie_http_only: true
+        session_cookie_name: b8d9ee2c1d2f9f9067d3a8d0540004c82d687dba4b41ef43bbc4a3620da95e3b
+        session_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+        session_cookie_same_site: Lax
+        session_cookie_secure: null
+        session_enforce_same_subject: false
+        session_hash_storage_key: false
+        session_hash_subject: false
+        session_idling_timeout: 900
+        session_memcached_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_memcached_port: 11211
+        session_memcached_prefix: null
+        session_memcached_socket: null
+        session_memcached_ssl: null
+        session_memcached_ssl_verify: false
+        session_redis_cluster_max_redirections: 5
+        session_redis_cluster_nodes: null
+        session_redis_connect_timeout: 2000
+        session_redis_host: 782db34d6e202c49ee328ad314ee43b3cec5751dab817b81a6da10ac04c70abd
+        session_redis_password: null
+        session_redis_port: 6379
+        session_redis_prefix: null
+        session_redis_read_timeout: 2000
+        session_redis_send_timeout: 2000
+        session_redis_server_name: null
+        session_redis_socket: null
+        session_redis_ssl: false
+        session_redis_ssl_verify: false
+        session_redis_username: null
+        session_remember: false
+        session_remember_absolute_timeout: 2592000
+        session_remember_cookie_name: 7ab9bed0735800b0754cf7ca3c0639dad45eb8a82032b4e4e0e9d4ae17cd5b30
+        session_remember_rolling_timeout: 604800
+        session_request_headers: null
+        session_response_headers: null
+        session_rolling_timeout: 3600
+        session_secret: null
+        session_storage: cookie
+        session_store_metadata: false
+        ssl_verify: false
+        timeout: 10000
+        tls_client_auth_cert_id: null
+        tls_client_auth_ssl_verify: true
+        token_cache_key_include_scope: false
+        token_endpoint: null
+        token_endpoint_auth_method: null
+        token_exchange: null
+        token_exchange_endpoint: null
+        token_headers_client: null
+        token_headers_grants: null
+        token_headers_names: null
+        token_headers_prefix: null
+        token_headers_replay: null
+        token_headers_values: null
+        token_post_args_client: null
+        token_post_args_names: null
+        token_post_args_values: null
+        unauthorized_destroy_session: true
+        unauthorized_error_message: 85dae5f62af612ea56b4543bc214ce3f3ced2aafdee2b408423d628c96de7833
+        unauthorized_redirect_uri: null
+        unexpected_redirect_uri: null
+        upstream_access_token_header: d640e6b3705791625d99c3e99a167c704433b60a17fed9f7d158911bc892c7f9:redacted
+        upstream_access_token_jwk_header: null
+        upstream_headers: null
+        upstream_headers_claims: null
+        upstream_headers_names: null
+        upstream_id_token_header: null
+        upstream_id_token_jwk_header: null
+        upstream_introspection_header: null
+        upstream_introspection_jwt_header: null
+        upstream_refresh_token_header: null
+        upstream_session_id_header: null
+        upstream_user_info_header: null
+        upstream_user_info_jwt_header: null
+        userinfo_accept: application/json
+        userinfo_endpoint: null
+        userinfo_headers_client: null
+        userinfo_headers_names: null
+        userinfo_headers_values: null
+        userinfo_query_args_client: null
+        userinfo_query_args_names: null
+        userinfo_query_args_values: null
+        using_pseudo_issuer: false
+        verify_claims: true
+        verify_nonce: true
+        verify_parameters: false
+        verify_signature: true
+      enabled: false
+      id: e5adf8b5-7f12-403c-8c7b-b2650c60ef34
+      instance_name: a095eb631db768da1bd54295238db88661bbbe0c2e088163eb3e11bc60b4cdba
+      name: openid-connect
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    - config:
+        day: null
+        error_code: 429
+        error_message: cee5ba2e46f75d99f9f85f225ccaca8ef4f986e8ca4344115dcc853d5ff18067
+        fault_tolerant: false
+        header_name: null
+        hide_client_headers: false
+        hour: null
+        limit_by: consumer
+        minute: 1000
+        month: null
+        path: null
+        policy: redis
+        redis:
+          cloud_authentication: null
+          database: 0
+          host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+          password: null
+          port: 6379
+          server_name: null
+          ssl: false
+          ssl_verify: true
+          timeout: 2000
+          username: null
+        redis_database: 0
+        redis_host: b38e9bc3b8924b7a1d6039ae9e713804959501f4612e931098e87d9339ce5d17
+        redis_password: null
+        redis_port: 6379
+        redis_server_name: null
+        redis_ssl: false
+        redis_ssl_verify: true
+        redis_timeout: 2000
+        redis_username: null
+        second: null
+        sync_rate: -1
+        year: null
+      enabled: false
+      id: 44d31f37-a6c6-452b-816e-e92cb63d0f7b
+      name: rate-limiting
+      protocols:
+      - grpc
+      - grpcs
+      - http
+      - https
+    preserve_host: true
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 3000
+upstreams:
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  healthchecks:
+    active:
+      concurrency: 10
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 2
+        successes: 1
+      http_path: /redacted/path/2a9c5c83c300b6883ac5f6388d5699f559c4abd1277a16419ae77abfb015c78f
+      https_verify_certificate: true
+      timeout: 1
+      type: 825195fa7c803b10b6724cb8d598e3ec52d9107154d61b61ca8348e718e8a19d
+      unhealthy:
+        http_failures: 1
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 2
+        tcp_failures: 1
+        timeouts: 1
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 1
+      type: 825195fa7c803b10b6724cb8d598e3ec52d9107154d61b61ca8348e718e8a19d
+      unhealthy:
+        http_failures: 1
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 1
+        timeouts: 1
+    threshold: 0
+  id: 4fed3238-b3a0-4888-9098-2908067237e8
+  name: 276ee090df495a79f51f568fa6edb14968400ddb1d994dd0491445c8c5ae0868
+  slots: 10000
+  sticky_sessions_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  tags:
+  - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+  - e4bb617b7a299c817b181192b6834a3d727309729e39ea5d9b29a017b2467f89
+  targets:
+  - failover: false
+    id: e8a8f5d1-d6a5-49c6-bd96-20797ed0e305
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - e4bb617b7a299c817b181192b6834a3d727309729e39ea5d9b29a017b2467f89
+    target: 76507818708e9d46e00b49aba910076733b3ede61cb39bfcb87e543fb75b95e7:redacted
+    weight: 100
+  - failover: false
+    id: f02274b6-a783-4c95-a21b-a103cb346e04
+    tags:
+    - b4a87ba9654adebc3b73aeca76c82951694f846e78ceedfe30f0171e8452713c
+    - e4bb617b7a299c817b181192b6834a3d727309729e39ea5d9b29a017b2467f89
+    target: a512f941ae87e8ca27f5292bdcf21493dff8ca7cb06d22bd5d2278b45e53be5b:redacted
+    weight: 100
+  use_srv_name: false
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  healthchecks:
+    active:
+      concurrency: 1
+      headers:
+        Host:
+        - 3cfeee837729c2aa3f8fcadee4b1f20064b5bed2923dcaa91f03fd04718c2016
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 3600
+        successes: 1
+      http_path: /redacted/path/d8d673f2ca6c44dbc733c8c10749d905eb2f4dd58b994ba574e133fb30a021c2
+      https_sni: 3cfeee837729c2aa3f8fcadee4b1f20064b5bed2923dcaa91f03fd04718c2016
+      https_verify_certificate: true
+      timeout: 5
+      type: 06743d767e46e792314aab2278d164c5f7c8b2937079b0dcd68d35d36061f527
+      unhealthy:
+        http_failures: 2
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 3600
+        tcp_failures: 0
+        timeouts: 0
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 0
+      type: 825195fa7c803b10b6724cb8d598e3ec52d9107154d61b61ca8348e718e8a19d
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 0
+        timeouts: 0
+    threshold: 0
+  id: 20d6d8af-6b31-478e-be16-9c6710209413
+  name: 950bac4c19937330d874c57491f152e2c5f836b259fc66dc0a6dac524eea6e26
+  slots: 10000
+  sticky_sessions_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  targets:
+  - failover: false
+    id: 9278f0bd-4749-43fb-8a1a-4f9f5ec3f137
+    target: 91a463786018a7356d5397ea2603e6f055acc2699ebe19af9ebbbe2633a4e865:redacted
+    weight: 100
+  use_srv_name: false
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  healthchecks:
+    active:
+      concurrency: 1
+      headers:
+        Host:
+        - 76785b7a34dd8e0d44b2799f89f9f02572cc75657a3417fea212f3b6383bc10a
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 3600
+        successes: 1
+      http_path: /redacted/path/d8d673f2ca6c44dbc733c8c10749d905eb2f4dd58b994ba574e133fb30a021c2
+      https_sni: 76785b7a34dd8e0d44b2799f89f9f02572cc75657a3417fea212f3b6383bc10a
+      https_verify_certificate: true
+      timeout: 5
+      type: 06743d767e46e792314aab2278d164c5f7c8b2937079b0dcd68d35d36061f527
+      unhealthy:
+        http_failures: 2
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 3600
+        tcp_failures: 0
+        timeouts: 0
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 0
+      type: 825195fa7c803b10b6724cb8d598e3ec52d9107154d61b61ca8348e718e8a19d
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 0
+        timeouts: 0
+    threshold: 0
+  id: 88b0097b-4c29-41b0-bde1-889acdc55cd7
+  name: 521b13cf2659dd6bb32dadf026dd9e261ba509067146fc01fee380aa065abeec
+  slots: 10000
+  sticky_sessions_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  targets:
+  - failover: false
+    id: 02764052-6ca1-42d9-adb3-987e2aae5a92
+    target: 6e8c1b3e91dd2a0b877fd8970474179e57ddbf01b98ed9ab16d506c79bfbd80b:redacted
+    weight: 100
+  use_srv_name: false
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  healthchecks:
+    active:
+      concurrency: 1
+      headers:
+        Host:
+        - d61006920ccaf7ad02125dae7a91b36f1c105e60440ebf12e34c67f43f580b7a
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 3600
+        successes: 1
+      http_path: /redacted/path/d8d673f2ca6c44dbc733c8c10749d905eb2f4dd58b994ba574e133fb30a021c2
+      https_sni: d61006920ccaf7ad02125dae7a91b36f1c105e60440ebf12e34c67f43f580b7a
+      https_verify_certificate: true
+      timeout: 5
+      type: 06743d767e46e792314aab2278d164c5f7c8b2937079b0dcd68d35d36061f527
+      unhealthy:
+        http_failures: 2
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 3600
+        tcp_failures: 0
+        timeouts: 0
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 0
+      type: 825195fa7c803b10b6724cb8d598e3ec52d9107154d61b61ca8348e718e8a19d
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 0
+        timeouts: 0
+    threshold: 0
+  id: 28cecc98-0fdb-4951-99a6-8faa44b4d845
+  name: 6e025f36ae8d9d9ae93fa71c205324313ff53ffeeff122bf3a0149416d06b199
+  slots: 10000
+  sticky_sessions_cookie_path: /redacted/path/14aeaf3b6274e5182cc4754a3c20c8bda5c1bad16670073aa98e78e49f779bf0
+  targets:
+  - failover: false
+    id: 1ce6f29e-2d2e-4b9e-8aec-4e12f34c543e
+    target: 9fa685d99247bfac1da99a349c0dfd5f84976b15a9e44eb9b2455add2f41a02e:redacted
+    weight: 100
+  use_srv_name: false
